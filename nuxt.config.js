@@ -27,7 +27,10 @@ export default {
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  components: [
+    '~/components',
+    { path: '~/components/ui/' },
+  ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
@@ -39,6 +42,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    'nuxt-i18n',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -61,6 +65,7 @@ export default {
         name: 'Русский',
         file: 'ru-RU.js'
       },
+      /*
       {
         code: 'en',
         iso: 'en-GB',
@@ -85,6 +90,7 @@ export default {
         name: 'Polski',
         file: 'pl-PL.js'
       },
+       */
     ],
     seo: true,
     baseUrl: 'https://romanbobrik.dev',
