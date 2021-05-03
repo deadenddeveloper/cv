@@ -12,4 +12,14 @@ export default {
   cv: {
     download: 'Скачать резюме',
   },
+
+  sections: {
+    bio: 'Обо мне',
+    skills: 'Навыки',
+    experience: 'Опыт работы',
+    education: 'Образование',
+    testimonials: 'Рекомендации',
+    clients: 'Клиенты',
+    contacts: 'Контакты',
+  },
 }

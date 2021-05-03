@@ -7,4 +7,9 @@ export default {
   },
 
   name: 'Roman Bobrik',
+  post: 'Dead end web developer',
+
+  cv: {
+    download: 'CV download',
+  },
 }

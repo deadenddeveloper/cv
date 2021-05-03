@@ -112,7 +112,8 @@ export default {
     suffix: true,
     icons: {
       solid: [
-        'faFilePdf',
+        'faFilePdf', 'faChevronDown', 'faChevronUp', 'faChevronLeft', 'faChevronRight', 'faFingerprint', 'faLaptopCode',
+        'faBriefcase', 'faUniversity', 'faQuoteRight', 'faUserTie', 'faAddressCard',
       ],
       brands: [
         'faFacebookF', 'faInstagram', 'faGithub', 'faStackOverflow', 'faTelegramPlane',

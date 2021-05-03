@@ -1,0 +1,37 @@
+[
+  {
+    "name": "bio",
+    "icon": "fingerprint",
+    "title": "sections.bio"
+  },
+  {
+    "name": "skills",
+    "icon": "laptop-code",
+    "title": "sections.skills"
+  },
+  {
+    "name": "experience",
+    "icon": "briefcase",
+    "title": "sections.experience"
+  },
+  {
+    "name": "education",
+    "icon": "university",
+    "title": "sections.education"
+  },
+  {
+    "name": "testimonials",
+    "icon": "quote-right",
+    "title": "sections.testimonials"
+  },
+  {
+    "name": "clients",
+    "icon": "user-tie",
+    "title": "sections.clients"
+  },
+  {
+    "name": "contacts",
+    "icon": "address-card",
+    "title": "sections.contacts"
+  }
+]
