@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Facebook",
+    "icon": "facebook-f",
+    "url": "https://www.facebook.com/bobrikr"
+  },
+  {
+    "name": "Instagram",
+    "icon": "instagram",
+    "url": "https://www.instagram.com/the_stupid_dick/"
+  },
+  {
+    "name": "Telegram",
+    "icon": "telegram-plane",
+    "url": "https://t.me/romanbobrik"
+  },
+  {
+    "name": "GitHub",
+    "icon": "github",
+    "url": "https://github.com/romanbobrik"
+  },
+  {
+    "name": "Stack Overflow",
+    "icon": "stack-overflow",
+    "url": "https://stackoverflow.com/users/2132773/roman-bobrik"
+  }
+]
