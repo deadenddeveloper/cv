@@ -65,7 +65,12 @@ export default {
         name: 'Русский',
         file: 'ru-RU.js'
       },
-      /*
+      {
+        code: 'by',
+        iso: 'by-BY',
+        name: 'Беларуская',
+        file: 'by-BY.js'
+      },
       {
         code: 'en',
         iso: 'en-GB',
@@ -79,18 +84,11 @@ export default {
         file: 'de-DE.js'
       },
       {
-        code: 'by',
-        iso: 'by-BY',
-        name: 'Беларуская',
-        file: 'by-BY.js'
-      },
-      {
         code: 'pl',
         iso: 'pl-PL',
         name: 'Polski',
         file: 'pl-PL.js'
       },
-       */
     ],
     seo: true,
     baseUrl: 'https://romanbobrik.dev',
