@@ -6,7 +6,8 @@ export default {
   head: {
     title: 'Roman Bobrik',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
+      class: 'bg-skin-base text-skin-base',
     },
     meta: [
       { charset: 'utf-8' },
@@ -15,7 +16,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -37,6 +38,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/fontawesome',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -110,8 +112,10 @@ export default {
     suffix: true,
     icons: {
       solid: [
+        'faFilePdf',
       ],
       brands: [
+        'faFacebookF', 'faInstagram', 'faGithub', 'faStackOverflow', 'faTelegramPlane',
       ],
     },
   },

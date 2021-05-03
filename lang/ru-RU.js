@@ -7,4 +7,9 @@ export default {
   },
 
   name: 'Роман Бобрик',
+  post: 'Dead end web разработчик',
+
+  cv: {
+    download: 'Скачать резюме',
+  },
 }

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg-base: 11, 12, 16; /* #0b0c10 */
+    --color-bg-accent: 102, 252, 241; /* #66fcf1 */
+    --color-bg-accent-hover: 69, 162, 158; /* #45a29e */
+
+    --color-text-accent: 102, 252, 241; /* #66fcf1 */
+    --color-text-accent-hover: 69, 162, 158; /* #45a29e */
+    --color-text-base: 197, 198, 199; /* #c5c6c7 */
+    --color-text-inverted: 11, 12, 16; /* #0b0c10 */
+
+    --color-border-base: 102, 252, 241; /* #66fcf1 */
+    --color-border-hover: 69, 162, 158; /* #45a29e */
+  }
+}
+
+/*
+  scheme:
+
+  #0b0c10 dark gray
+  #1f2833 darkened gray
+  #c5c6c7 gray
+  #66fcf1 teal
+  #45a29e darkened teal
+*/
