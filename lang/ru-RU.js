@@ -13,6 +13,8 @@ export default {
   date_of_birth: '9 февраля 1991',
   place_of_birth: 'Славянка, Приморский край, Россия',
 
+  back_to_top: 'Наверх',
+
   cv: {
     download: 'Скачать резюме',
   },

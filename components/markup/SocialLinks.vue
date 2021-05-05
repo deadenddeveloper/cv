@@ -3,7 +3,7 @@
     <a
       v-for="link in links"
       :key="link.name"
-      :title="link.name"
+      v-tooltip="link.name"
       :href="link.url"
       target="_blank"
       class="w-10 h-10 flex items-center justify-center rounded-full text-2xl transition-colors duration-200 cursor-pointer focus:outline-none focus:ring-2 text-skin-accent hover:text-skin-accent-hover"
