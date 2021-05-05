@@ -19,6 +19,11 @@ export default {
     ],
   },
 
+  publicRuntimeConfig: {
+    email: process.env.EMAIL || 'romanbobrik@tut.by',
+    phone: process.env.PHONE || '+49 (151) 7302 5661',
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/tailwind',
@@ -113,7 +118,8 @@ export default {
     icons: {
       solid: [
         'faFilePdf', 'faChevronDown', 'faChevronUp', 'faChevronLeft', 'faChevronRight', 'faFingerprint', 'faLaptopCode',
-        'faBriefcase', 'faUniversity', 'faQuoteRight', 'faUserTie', 'faAddressCard',
+        'faBriefcase', 'faUniversity', 'faQuoteRight', 'faUserTie', 'faAddressCard', 'faSignature', 'faHome',
+        'faCalendarAlt', 'faGlobeEurope', 'faAt', 'faPhone',
       ],
       brands: [
         'faFacebookF', 'faInstagram', 'faGithub', 'faStackOverflow', 'faTelegramPlane',
