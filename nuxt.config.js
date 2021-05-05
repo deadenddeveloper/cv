@@ -27,10 +27,12 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/tailwind',
+    '~/assets/css/tooltip',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '~/plugins/vue-tooltip.js' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -58,6 +60,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    transpile: [
+      'vee-tooltip',
+    ],
     babel:{
       plugins: [
         ['@babel/plugin-proposal-private-methods', { loose: true }]
