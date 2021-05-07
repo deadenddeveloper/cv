@@ -1,0 +1,33 @@
+[
+  {
+    "name": "languages",
+    "skills": [
+      {"icon": ["fab", "php"], "text": "skills.php"},
+      {"icon": ["fab", "js"], "text": "skills.js"},
+      {"icon": ["fab", "html5"], "text": "skills.html"},
+      {"icon": "terminal", "text": "skills.delphi"},
+      {"icon": ["fab", "python"], "text": "skills.python"}
+    ]
+  },
+  {
+    "name": "technologies",
+    "skills": [
+      {"icon": ["fab", "wordpress"], "text": "skills.cms"},
+      {"icon": "database", "text": "skills.db"},
+      {"icon": "server", "text": "skills.environment"},
+      {"icon": ["fab", "windows"], "text": "skills.win"},
+      {"icon": "mobile-alt", "text": "skills.winphone"}
+    ]
+  },
+  {
+    "name": "coding",
+    "skills": [
+      {"icon": "cubes", "text": "skills.oop"},
+      {"icon": "code", "text": "skills.coding"},
+      {"icon": "code-branch", "text": "skills.vcs"},
+      {"icon": "atom", "text": "skills.algorithm"},
+      {"icon": "pastafarianism", "text": "skills.spaghetti"},
+      {"icon": "graduation-cap", "text": "skills.learn"}
+    ]
+  }
+]
