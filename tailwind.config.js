@@ -24,6 +24,7 @@ module.exports = {
           base: withOpacity('--color-bg-base'),
           accent: withOpacity('--color-bg-accent'),
           'accent-hover': withOpacity('--color-bg-accent-hover'),
+          muted: withOpacity('--color-bg-muted'),
         },
       },
       borderColor: {

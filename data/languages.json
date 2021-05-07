@@ -1,0 +1,32 @@
+[
+  {
+    "name": "languages.ru.name",
+    "description": "languages.ru.description",
+    "level": [100, 100, 100, 100]
+  },
+  {
+    "name": "languages.by.name",
+    "description": "languages.by.description",
+    "level": [90, 80, 80, 60]
+  },
+  {
+    "name": "languages.ua.name",
+    "description": "languages.ua.description",
+    "level": [80, 40, 80, 40]
+  },
+  {
+    "name": "languages.en.name",
+    "description": "languages.en.description",
+    "level": [85, 85, 85, 85]
+  },
+  {
+    "name": "languages.de.name",
+    "description": "languages.de.description",
+    "level": [75, 75, 75, 65]
+  },
+  {
+    "name": "languages.pl.name",
+    "description": "languages.pl.description",
+    "level": [80, 20, 70, 50]
+  }
+]

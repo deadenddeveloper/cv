@@ -15,6 +15,7 @@
       <div class="w-full lg:w-2/3 space-y-32 mt-3 px-4 lg:px-0">
         <markup-bio id="bio" />
         <markup-skills id="skills" />
+        <markup-languages id="languages" />
         <markup-experience id="experience" />
         <markup-education id="education" />
         <markup-testimonials id="testimonials" />
