@@ -22,6 +22,7 @@ export default {
   sections: {
     bio: 'Обо мне',
     skills: 'Навыки',
+    languages: 'Языки',
     experience: 'Опыт работы',
     education: 'Образование',
     testimonials: 'Рекомендации',
@@ -37,5 +38,26 @@ export default {
     place_of_birth: 'Место рождения',
     phone: 'Телефон',
     email: 'E-mail',
-  }
+  },
+
+  skills: {
+    php: 'Знание PHP (plain php, Phalcon, Laravel, поверхностно Sylex и Lumen). Сейчас преимущественно работаю с Laravel.',
+    js: 'Знание JavaScript (plain js, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine).',
+    html: 'Знание HTML, CSS, умение верстать (Bootstrap, Tailwind).',
+    delphi: 'Знание Delphi 7, Pascal.',
+    python: 'Знание Python на уровне решения прикладных задач.',
+
+    cms: 'Опыт работы с CMS Joomla, MODX, Opencart, 1С-Битрикс, Prestashop, Wordpress.',
+    db: 'Опыт работы с базами данных (MySQL‚ Informix‚ dBase)‚ знание SQL.',
+    environment: 'Опыт установки и настройки окружения для веб-разработки (Homestead, PHP, MySQL, Apache, Nginx) на Windows и Unix.',
+    win: 'Опыт создания приложений для Windows 8 (HTML+JS).',
+    winphone: 'Опыт создания мобильных приложений для Windows Phone 8 (HTML+JS, XAML+C#).',
+
+    oop: 'Понимание принципов ООП, MVC, шаблонов проектирования.',
+    coding: 'Умение разбираться в чужом коде‚ привычка писать самодокументированный код и добавлять комментарии там, где они действительно нужны.',
+    vcs: 'Умение работать с системами контроля версий.',
+    algorithm: 'Понимание алгоритмизации‚ структур данных‚ оценки сложности алгоритмов.',
+    spaghetti: 'Умение понять и отрефакторить любой спагетти-код.',
+    learn: 'Быстрая обучаемость.',
+  },
 }

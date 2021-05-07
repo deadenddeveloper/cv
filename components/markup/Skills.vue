@@ -1,5 +1,30 @@
 <template>
-  <div class="bg-blue-400" style="height: 600px;">
-    SKILLS
+  <div class="space-y-10">
+    <section-header :title="$t('sections.skills')" icon="laptop-code" />
+
+    <div
+      v-for="group in skills"
+      :key="group.name"
+      class="text-lg"
+    >
+      <ul class="space-y-2">
+        <li v-for="skill in group.skills" class="flex">
+          <span class="text-skin-accent w-6 text-center mr-4">
+            <fa-icon :icon="skill.icon" />
+          </span>
+          <span>{{ $t(skill.text) }}</span>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
+
+<script>
+import skills from '~/data/skills'
+
+export default {
+  data: () => ({
+    skills,
+  }),
+}
+</script>

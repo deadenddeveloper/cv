@@ -12,7 +12,7 @@
           <markup-cv-link />
         </div>
       </div>
-      <div class="w-full lg:w-2/3 space-y-10 mt-3 px-4 lg:px-0">
+      <div class="w-full lg:w-2/3 space-y-32 mt-3 px-4 lg:px-0">
         <markup-bio id="bio" />
         <markup-skills id="skills" />
         <markup-experience id="experience" />

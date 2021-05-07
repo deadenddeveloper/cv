@@ -10,6 +10,11 @@
     "title": "sections.skills"
   },
   {
+    "name": "languages",
+    "icon": "language",
+    "title": "sections.languages"
+  },
+  {
     "name": "experience",
     "icon": "briefcase",
     "title": "sections.experience"

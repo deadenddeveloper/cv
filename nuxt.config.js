@@ -124,10 +124,12 @@ export default {
       solid: [
         'faFilePdf', 'faChevronDown', 'faChevronUp', 'faChevronLeft', 'faChevronRight', 'faFingerprint', 'faLaptopCode',
         'faBriefcase', 'faUniversity', 'faQuoteRight', 'faUserTie', 'faAddressCard', 'faSignature', 'faHome',
-        'faCalendarAlt', 'faGlobeEurope', 'faAt', 'faPhone',
+        'faCalendarAlt', 'faGlobeEurope', 'faAt', 'faPhone', 'faTerminal', 'faDatabase', 'faServer', 'faMobileAlt',
+        'faCubes', 'faCode', 'faCodeBranch', 'faAtom', 'faPastafarianism', 'faGraduationCap', 'faLanguage',
       ],
       brands: [
-        'faFacebookF', 'faInstagram', 'faGithub', 'faStackOverflow', 'faTelegramPlane',
+        'faFacebookF', 'faInstagram', 'faGithub', 'faStackOverflow', 'faTelegramPlane', 'faPhp', 'faJs', 'faHtml5',
+        'faPython', 'faWordpress', 'faWindows',
       ],
     },
   },
