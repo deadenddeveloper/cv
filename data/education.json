@@ -1,0 +1,16 @@
+[
+  {
+    "time": "education.bscli.time",
+    "post": "education.bscli.post",
+    "speciality": "education.bscli.speciality",
+    "location": "education.bscli.location",
+    "name": "education.bscli.name"
+  },
+  {
+    "time": "education.grsu.time",
+    "post": "education.grsu.post",
+    "speciality": "education.grsu.speciality",
+    "location": "education.grsu.location",
+    "name": "education.grsu.name"
+  }
+]
