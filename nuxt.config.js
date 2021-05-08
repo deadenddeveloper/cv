@@ -129,7 +129,7 @@ export default {
       ],
       brands: [
         'faFacebookF', 'faInstagram', 'faGithub', 'faStackOverflow', 'faTelegramPlane', 'faPhp', 'faJs', 'faHtml5',
-        'faPython', 'faWordpress', 'faWindows',
+        'faPython', 'faWordpress', 'faWindows', 'faLinkedin',
       ],
     },
   },

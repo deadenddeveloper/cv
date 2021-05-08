@@ -1,0 +1,34 @@
+[
+  {
+    "time": "work.svitanak.time",
+    "post": "work.svitanak.post",
+    "location": "work.svitanak.location",
+    "firm": "work.svitanak.firm",
+    "description": "work.svitanak.description",
+    "tags": ["Delphi", "Fast Report", "Informix", "dBase"]
+  },
+  {
+    "time": "work.itgarant.time",
+    "post": "work.itgarant.post",
+    "location": "work.itgarant.location",
+    "firm": "work.itgarant.firm",
+    "description": "work.itgarant.description",
+    "tags": ["Joomla", "Drupal", "Windows 8", "Windows Phone"]
+  },
+  {
+    "time": "work.freelance.time",
+    "post": "work.freelance.post",
+    "location": "work.freelance.location",
+    "firm": "work.freelance.firm",
+    "description": "work.freelance.description",
+    "tags": ["1C-Bitrix", "MODx", "Opencart", "Prestashop"]
+  },
+  {
+    "time": "work.recoma.time",
+    "post": "work.recoma.post",
+    "location": "work.recoma.location",
+    "firm": "work.recoma.firm",
+    "description": "work.recoma.description",
+    "tags": ["Laravel", "Vue.js", "jQuery", "MySQL", "Wordpress"]
+  }
+]
