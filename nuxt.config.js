@@ -32,6 +32,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '~/plugins/i18n.js' },
     { src: '~/plugins/vue-tooltip.js' },
   ],
 
@@ -56,11 +57,14 @@ export default {
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
+  axios: {
+    baseURL: 'https://romanbobrik.dev/',
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: [
+      'vee-validate',
       'vee-tooltip',
     ],
     babel:{
@@ -79,16 +83,17 @@ export default {
         file: 'ru-RU.js'
       },
       {
-        code: 'by',
-        iso: 'by-BY',
-        name: 'Беларуская',
-        file: 'by-BY.js'
-      },
-      {
         code: 'en',
         iso: 'en-GB',
         name: 'English',
         file: 'en-GB.js'
+      },
+      /*
+      {
+        code: 'by',
+        iso: 'by-BY',
+        name: 'Беларуская',
+        file: 'by-BY.js'
       },
       {
         code: 'de',
@@ -102,6 +107,7 @@ export default {
         name: 'Polski',
         file: 'pl-PL.js'
       },
+      */
     ],
     seo: true,
     baseUrl: 'https://romanbobrik.dev',
@@ -125,7 +131,8 @@ export default {
         'faFilePdf', 'faChevronDown', 'faChevronUp', 'faChevronLeft', 'faChevronRight', 'faFingerprint', 'faLaptopCode',
         'faBriefcase', 'faUniversity', 'faQuoteRight', 'faUserTie', 'faAddressCard', 'faSignature', 'faHome',
         'faCalendarAlt', 'faGlobeEurope', 'faAt', 'faPhone', 'faTerminal', 'faDatabase', 'faServer', 'faMobileAlt',
-        'faCubes', 'faCode', 'faCodeBranch', 'faAtom', 'faPastafarianism', 'faGraduationCap', 'faLanguage',
+        'faCubes', 'faCode', 'faCodeBranch', 'faAtom', 'faPastafarianism', 'faGraduationCap', 'faLanguage', 'faPaperPlane',
+        'faSpinner', 'faCheck', 'faInfoCircle', 'faExclamationCircle', 'faSkullCrossbones',
       ],
       brands: [
         'faFacebookF', 'faInstagram', 'faGithub', 'faStackOverflow', 'faTelegramPlane', 'faPhp', 'faJs', 'faHtml5',

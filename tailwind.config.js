@@ -17,6 +17,11 @@ module.exports = {
           inverted: withOpacity('--color-text-inverted'),
           accent: withOpacity('--color-text-accent'),
           'accent-hover': withOpacity('--color-text-accent-hover'),
+          //
+          success: withOpacity('--color-success'),
+          info: withOpacity('--color-info'),
+          danger: withOpacity('--color-danger'),
+          warning: withOpacity('--color-warning'),
         },
       },
       backgroundColor: {
@@ -25,6 +30,11 @@ module.exports = {
           accent: withOpacity('--color-bg-accent'),
           'accent-hover': withOpacity('--color-bg-accent-hover'),
           muted: withOpacity('--color-bg-muted'),
+          //
+          success: withOpacity('--color-success'),
+          info: withOpacity('--color-info'),
+          danger: withOpacity('--color-danger'),
+          warning: withOpacity('--color-warning'),
         },
       },
       borderColor: {
