@@ -24,13 +24,7 @@
         </div>
         <div>{{ $t(place.post) }}</div>
         <div class="text-sm text-justify">{{ $t(place.description) }}</div>
-        <div class="space-x-2">
-          <span
-            v-for="tag in place.tags"
-            :key="tag"
-            class="text-sm bg-skin-accent text-skin-inverted px-2 py-0.5 rounded-full whitespace-nowrap"
-          >{{ tag }}</span>
-        </div>
+        <tag-list :tags="place.tags" />
       </div>
     </div>
   </div>

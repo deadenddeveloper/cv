@@ -25,16 +25,6 @@
     "title": "sections.education"
   },
   {
-    "name": "testimonials",
-    "icon": "quote-right",
-    "title": "sections.testimonials"
-  },
-  {
-    "name": "clients",
-    "icon": "user-tie",
-    "title": "sections.clients"
-  },
-  {
     "name": "contacts",
     "icon": "address-card",
     "title": "sections.contacts"

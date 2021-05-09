@@ -5,7 +5,7 @@
     <div class="text-lg text-center grid grid-cols-1 md:grid-cols-2 gap-4">
       <div>
         <fa-icon icon="signature" class="text-skin-accent" /> {{ $t('bio.full_name') }}:<br />
-        <strong>{{ $t('name') }}</strong>
+        <strong>{{ $t('full_name') }}</strong>
       </div>
       <div>
         <fa-icon icon="home" class="text-skin-accent" /> {{ $t('bio.location') }}:<br />

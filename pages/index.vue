@@ -18,8 +18,6 @@
         <markup-languages id="languages" />
         <markup-work id="work" />
         <markup-education id="education" />
-        <markup-testimonials id="testimonials" />
-        <markup-clients id="clients" />
         <markup-contacts id="contacts" />
       </div>
       <div class="bg-skin-base z-20 border-t border-skin-base w-full lg:w-12 h-auto lg:h-screen mt-0 lg:-mt-24 pt-0 lg:pt-24 pb-0 lg:pb-2 flex flex-row lg:flex-col justify-between fixed bottom-0 left-0 lg:sticky lg:top-0">
