@@ -19,6 +19,10 @@
         <markup-work id="work" />
         <markup-education id="education" />
         <markup-contacts id="contacts" />
+        <div class="text-center pb-20">
+          <div class="w-16 h-1 rounded-full bg-skin-accent inline-flex"></div>
+          <div class="text-lg" v-html="$t('copyright')"></div>
+        </div>
       </div>
       <div class="bg-skin-base z-20 border-t border-skin-base w-full lg:w-12 h-auto lg:h-screen mt-0 lg:-mt-24 pt-0 lg:pt-24 pb-0 lg:pb-2 flex flex-row lg:flex-col justify-between fixed bottom-0 left-0 lg:sticky lg:top-0">
         <markup-nav v-on:goto="goto($event)" />
