@@ -88,18 +88,18 @@ export default {
         name: 'English',
         file: 'en-GB.js'
       },
+      {
+        code: 'de',
+        iso: 'de-DE',
+        name: 'Deutsch',
+        file: 'de-DE.js'
+      },
       /*
       {
         code: 'by',
         iso: 'by-BY',
         name: 'Беларуская',
         file: 'by-BY.js'
-      },
-      {
-        code: 'de',
-        iso: 'de-DE',
-        name: 'Deutsch',
-        file: 'de-DE.js'
       },
       {
         code: 'pl',

@@ -1,4 +1,4 @@
-<template>
+<template xmlns="http://www.w3.org/1999/html">
   <div class="space-y-10">
     <section-header :title="$t('sections.education')" icon="university" />
 
@@ -14,14 +14,14 @@
         </strong>
       </div>
       <div class="hidden md:block">
-        <span class="ml-3 mt-3 inline-block h-3 w-3 bg-skin-accent rounded-full">&nbsp;</span>
+        <span class="ml-3 mt-3 mb-3 block h-3 w-3 bg-skin-accent rounded-full">&nbsp;</span>
         <span v-if="index !== education.length - 1" class="inline-block ml-4 border-r border-skin-base h-full"></span>
       </div>
       <div class="flex-grow space-y-2 mt-1">
         <div class="text-lg text-skin-accent">{{ $t(place.name) }}</div>
         <div>{{ $t(place.location) }}</div>
         <div>{{ $t(place.post) }}</div>
-        <div class="text-sm text-justify">{{ $t(place.speciality) }}</div>
+        <div class="text-sm text-left">{{ $t(place.speciality) }}</div>
       </div>
     </div>
   </div>

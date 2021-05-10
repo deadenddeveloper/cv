@@ -45,4 +45,12 @@ module.exports = {
       },
     },
   },
+
+  purge: {
+    options: {
+      safelist: {
+        standard: [/success$/, /info$/, /danger$/, /warning$/],
+      },
+    },
+  },
 }
