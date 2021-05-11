@@ -2,7 +2,7 @@
   <div class="text-center">
     <a
       class="inline-block h-10 px-5 py-1.5 text-lg text-skin-inverted rounded-full bg-skin-accent hover:bg-skin-accent-hover focus:outline-none focus:ring-2"
-      download="download"
+      :download="`romanbobrik_${currentLocale.code}.pdf`"
       target="_blank"
       :href="`cv/romanbobrik_${currentLocale.code}.pdf`"
     >
