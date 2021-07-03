@@ -1,13 +1,13 @@
 export default {
   meta: {
     index: {
-      title: 'Роман Бобрик - Dead end developer',
+      title: 'Роман Майер - Dead end developer',
       description: 'full stack web разработчик web-разработка php laravel javascript nuxt vue',
     },
   },
 
-  name: 'Роман Бобрик',
-  full_name: 'Роман Владимирович Бобрик',
+  name: 'Роман Майер',
+  full_name: 'Роман Владимирович Майер',
   post: 'Dead end web разработчик',
   address: 'Букстехуде, Нижняя Саксония, Германия',
   date_of_birth: '9 февраля 1991',
@@ -15,7 +15,7 @@ export default {
 
   back_to_top: 'Наверх',
 
-  copyright: '&copy; 2021 Roman Bobrik',
+  copyright: '&copy; 2021 Roman Meyer',
 
   cv: {
     download: 'Скачать резюме',

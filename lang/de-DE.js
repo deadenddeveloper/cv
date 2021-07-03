@@ -1,21 +1,21 @@
 export default {
   meta: {
     index: {
-      title: 'Roman Bobrik - Dead End Web Entwickler',
+      title: 'Roman Meyer - Dead End Web Entwickler',
       description: 'full stack web developer web-dev php laravel javascript nuxt vue',
     },
   },
 
-  name: 'Roman Bobrik',
+  name: 'Roman Meyer',
   post: 'Dead End Web Entwickler',
-  full_name: 'Roman Bobrik',
+  full_name: 'Roman Meyer',
   address: 'Buxtehude, Niedersachsen, Deutschland',
   date_of_birth: '9. Februar 1991',
   place_of_birth: 'Slavyanka, Primorsky Krai, Russland',
 
   back_to_top: 'Zurück nach oben',
 
-  copyright: '&copy; 2021 Roman Bobrik',
+  copyright: '&copy; 2021 Roman Meyer',
 
   cv: {
     download: 'Lebenslauf herunterladen',
