@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Roman Bobrik',
+    title: 'Roman Meyer',
     htmlAttrs: {
       lang: 'en',
       class: 'bg-skin-base text-skin-base',
@@ -20,7 +20,7 @@ export default {
   },
 
   publicRuntimeConfig: {
-    email: process.env.EMAIL || 'romanbobrik@tut.by',
+    email: process.env.EMAIL || 'roman.v.meyer@gmail.com',
     phone: process.env.PHONE || '+49 (151) 7302 5661',
   },
 
@@ -58,7 +58,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'https://romanbobrik.dev/',
+    baseURL: 'https://romanmeyer.dev/',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -110,7 +110,7 @@ export default {
       */
     ],
     seo: true,
-    baseUrl: 'https://romanbobrik.dev',
+    baseUrl: 'https://romanmeyer.dev',
     lazy: true,
     langDir: 'lang/',
     defaultLocale: 'ru',
