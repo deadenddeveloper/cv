@@ -19,8 +19,8 @@ function json_response($code = 200, $message = null)
   ]);
 }
 
-$to = 'romanbobrik@tut.by';
-$subject = 'romanbobrik.dev contact form';
+$to = 'roman.v.meyer@gmail.com';
+$subject = 'romanmeyer.dev contact form';
 
 $data = json_decode(file_get_contents('php://input'), true);
 
