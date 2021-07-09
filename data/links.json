@@ -2,7 +2,7 @@
   {
     "name": "Facebook",
     "icon": "facebook-f",
-    "url": "https://www.facebook.com/bobrikr"
+    "url": "https://www.facebook.com/roman.v.meyer"
   },
   {
     "name": "Instagram",
@@ -12,21 +12,21 @@
   {
     "name": "Telegram",
     "icon": "telegram-plane",
-    "url": "https://t.me/romanbobrik"
+    "url": "https://t.me/romanmeyer"
   },
   {
     "name": "GitHub",
     "icon": "github",
-    "url": "https://github.com/romanbobrik"
+    "url": "https://github.com/deadenddeveloper"
   },
   {
     "name": "LinkedIn",
     "icon": "linkedin",
-    "url": "https://www.linkedin.com/in/roman-bobrik-19a9a6160/"
+    "url": "https://www.linkedin.com/in/roman-meyer-19a9a6160/"
   },
   {
     "name": "Stack Overflow",
     "icon": "stack-overflow",
-    "url": "https://stackoverflow.com/users/2132773/roman-bobrik"
+    "url": "https://stackoverflow.com/users/2132773/roman-meyer"
   }
 ]
