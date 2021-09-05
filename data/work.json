@@ -30,5 +30,13 @@
     "firm": "work.recoma.firm",
     "description": "work.recoma.description",
     "tags": ["Laravel", "Vue.js", "jQuery", "MySQL", "Wordpress"]
+  },
+  {
+    "time": "work.vke.time",
+    "post": "work.vke.post",
+    "location": "work.vke.location",
+    "firm": "work.vke.firm",
+    "description": "work.vke.description",
+    "tags": []
   }
 ]

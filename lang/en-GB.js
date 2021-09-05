@@ -115,11 +115,18 @@ export default {
       description: 'This was a very carefree period of my life. I have collaborated with several organizations in the CIS and gained a ton of experience. Most of all I came across orders for 1C-Bitrix. I was doing a lot of parsing of specific data in cooperation with one large company.',
     },
     recoma: {
-      time: 'July 2018 - until now',
+      time: 'July 2018 - august 2021',
       post: 'Full stack web-developer',
       firm: 'RECO.MA GmbH',
       location: 'Beselich, Germany',
-      description: 'I got a job offer with relocation to Germany and did not hesitate. Now I do a few big and ambitious projects in Laravel. Also I maintain a couple of sites on Wordpress and develop custom user interfaces.',
+      description: 'I got a job offer with relocation to Germany and did not hesitate. I did a few big and ambitious projects in Laravel. Also I maintained a couple of sites on Wordpress and developed custom user interfaces.',
+    },
+    vke: {
+      time: 'September 2021 - until now',
+      post: 'Full stack web-developer',
+      firm: 'von Kéler Engineering GmbH',
+      location: 'Braunschweig, Germany',
+      description: '',
     },
   },
 

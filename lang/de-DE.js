@@ -115,11 +115,18 @@ export default {
       description: 'Dies war eine sehr unbeschwerte Zeit im meinem Leben. Ich habe mit mehreren Organisationen in der GUS zusammengearbeitet und konnte eine Menge Erfahrungen sammeln. Meistens habe ich an 1C-Bitrix-Projekten teilgenommen. Ich habe in Zusammenarbeit mit einem großen Unternehmen viele spezifische Daten analysiert (Parsing).',
     },
     recoma: {
-      time: 'Juli 2018 - bis jetzt',
+      time: 'Juli 2018 - August 2021',
       post: 'Full Stack Web-Entwickler',
       firm: 'RECO.MA GmbH',
       location: 'Beselich, Deutschland',
-      description: 'Ich habe ein Stellenangebot mit Umzug nach Deutschland bekommen und zögerte nicht. Jetzt mache ich einige große und ehrgeizige Projekte mit Laravel. Außerdem pflege ich einige Websites in Wordpress und entwickle UI/UX Interfaces.',
+      description: 'Ich habe ein Stellenangebot mit Umzug nach Deutschland bekommen und zögerte nicht. Ich habe einige große und ehrgeizige Projekte mit Laravel gemacht. Außerdem pflegte ich einige Websites in Wordpress und entwickelte UI/UX Interfaces.',
+    },
+    vke: {
+      time: 'September 2021 - bis jetzt',
+      post: 'Full Stack Web-Entwickler',
+      firm: 'von Kéler Engineering GmbH',
+      location: 'Braunschweig, Deutschland',
+      description: '',
     },
   },
 
