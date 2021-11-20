@@ -37,6 +37,6 @@
     "location": "work.vke.location",
     "firm": "work.vke.firm",
     "description": "work.vke.description",
-    "tags": []
+    "tags": ["Vue.js", "Typescript", "Electron", "Svelte"]
   }
 ]

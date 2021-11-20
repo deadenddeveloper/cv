@@ -44,8 +44,8 @@ export default {
 
   skills: {
     php: 'Знание PHP (plain PHP, Phalcon, Laravel, поверхностно Sylex и Lumen). Сейчас преимущественно работаю с Laravel.',
-    js: 'Знание JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine).',
-    html: 'Знание HTML, CSS, умение верстать (Bootstrap, Tailwind).',
+    js: 'Знание JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine), Typescript',
+    html: 'Знание HTML, CSS (SASS, SCSS, Stylus), умение верстать (Bootstrap, Tailwind).',
     delphi: 'Знание Delphi 7, Pascal.',
     python: 'Знание Python на уровне решения прикладных задач.',
 
@@ -128,7 +128,7 @@ export default {
       post: 'Full stack web-разработчик',
       firm: 'von Kéler Engineering GmbH',
       location: 'Брауншвейг, Германия',
-      description: '',
+      description: 'Стал частью команды веб-разработчиков. Пока занимаюсь в основном внутренними проектами компании.',
     },
   },
 

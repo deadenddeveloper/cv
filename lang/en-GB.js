@@ -42,8 +42,8 @@ export default {
 
   skills: {
     php: 'PHP (plain PHP, Phalcon, Laravel, a bit Sylex and Lumen). Now I am mostly using Laravel.',
-    js: 'JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine).',
-    html: 'HTML, CSS, markup and styling (Bootstrap, Tailwind).',
+    js: 'JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine), Typescript.',
+    html: 'HTML, CSS (SASS, SCSS, Stylus), markup and styling (Bootstrap, Tailwind).',
     delphi: 'Delphi 7, Pascal.',
     python: 'Python on the level to write simple utility scripts.',
 
@@ -126,7 +126,7 @@ export default {
       post: 'Full stack web-developer',
       firm: 'von Kéler Engineering GmbH',
       location: 'Braunschweig, Germany',
-      description: '',
+      description: 'I became a part of the web development team. So far, I am mainly engaged in internal projects of the company.',
     },
   },
 

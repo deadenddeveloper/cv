@@ -94,13 +94,13 @@ export default {
         name: 'Deutsch',
         file: 'de-DE.js'
       },
-      /*
       {
         code: 'by',
         iso: 'by-BY',
         name: 'Беларуская',
         file: 'by-BY.js'
       },
+      /*
       {
         code: 'pl',
         iso: 'pl-PL',
