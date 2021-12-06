@@ -44,7 +44,7 @@ export default {
 
   skills: {
     php: 'Веданне PHP (plain PHP, Phalcon, Laravel, павярхоўна Sylex i Lumen). Цяпер пераважна працую з Laravel.',
-    js: 'Веданне JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine), Typescript',
+    js: 'Веданне JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine, Svelte, React), Typescript',
     html: 'Веданне HTML, CSS (SASS, SCSS, Stylus), уменне вярстаць (Bootstrap, Tailwind).',
     delphi: 'Веданне Delphi 7, Pascal.',
     python: 'Веданне Python на ўзроўні рашэння прыкладных задач.',

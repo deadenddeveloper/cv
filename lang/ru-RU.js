@@ -44,7 +44,7 @@ export default {
 
   skills: {
     php: 'Знание PHP (plain PHP, Phalcon, Laravel, поверхностно Sylex и Lumen). Сейчас преимущественно работаю с Laravel.',
-    js: 'Знание JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine), Typescript',
+    js: 'Знание JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine, Svelte, React), Typescript',
     html: 'Знание HTML, CSS (SASS, SCSS, Stylus), умение верстать (Bootstrap, Tailwind).',
     delphi: 'Знание Delphi 7, Pascal.',
     python: 'Знание Python на уровне решения прикладных задач.',

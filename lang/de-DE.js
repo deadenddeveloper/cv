@@ -42,7 +42,7 @@ export default {
 
   skills: {
     php: 'PHP (plain PHP, Phalcon, Laravel, ein bisschen Sylex und Lumen). Jetzt benutze ich hauptsächlich Laravel.',
-    js: 'JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine), Typescript.',
+    js: 'JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine, Svelte, React), Typescript.',
     html: 'HTML, CSS (SASS, SCSS, Stylus), Markup und Styling (Bootstrap, Tailwind).',
     delphi: 'Delphi 7, Pascal.',
     python: 'Python (Basislevel).',
