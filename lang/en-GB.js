@@ -31,7 +31,7 @@ export default {
   },
 
   bio: {
-    about: '<p>Hi. My name is Roman. I am already working as a web-developer more than ten years.</p><p>I earned my first million when I was 17 years old. Unfortunately, that was not euros or dollars, but belarussian rubles, so it was pretty easy to earn. In addition to my own course work, I also took on that of my college mates` on Delphi and C/C++ for money. It was the period of my life when I was getting my first education and got the qualification "technician programmer".</p><p>After the college I got a job where I didn\'t have to work a lot and I could use my time for the world of web-development. At the same time I was getting senseless high education just to avoid army.</p><p>Three years of sitting in an uncomfortable office and watching series exhausted me, so I quit. My side income was already twice more than my salary, so I could move to freelance without any doubt.</p><p>In 2010 I started developing with pure PHP. Over the years I have had a lot of experience with Joomla, Wordpress, MODx, Prestashop, Opencart and even 1C-Bitrix. Finally, I moved to using frameworks. The last three years I have worked with Laravel and recently discovered Nuxt.js and Tailwind for myself.</p>',
+    about: '<p>Hi. My name is Roman. I am already working as a web-developer more than ten years.</p><p>I earned my first million when I was 17 years old. Unfortunately, that was not euros or dollars, but belarussian rubles, so it was pretty easy to earn. In addition to my own course work, I also took on that of my college mates` on Delphi and C/C++ for money. It was the period of my life when I was getting my first education and got the qualification "technician programmer".</p><p>After the college I got a job where I didn\'t have to work a lot and I could use my time for the world of web-development. At the same time I was getting senseless high education just to avoid army.</p><p>Three years of sitting in an uncomfortable office and watching series exhausted me, so I quit. My side income was already twice more than my salary, so I could move to freelance without any doubt.</p><p>In 2010 I started developing with pure PHP. Over the years I have had a lot of experience with Joomla, Wordpress, MODx, Prestashop, Opencart and even 1C-Bitrix. Finally, I moved to using frameworks. The last time I have worked with Laravel, discovered Nuxt.js and Tailwind for myself, and at the current time I am mostly doing frontend, using all the popular frameworks.</p>',
     full_name: 'Full name',
     location: 'Location',
     date_of_birth: 'Date of birth',
@@ -42,7 +42,7 @@ export default {
 
   skills: {
     php: 'PHP (plain PHP, Phalcon, Laravel, a bit Sylex and Lumen). Now I am mostly using Laravel.',
-    js: 'JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine), Typescript.',
+    js: 'JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine, Svelte, React, Electron), TypeScript.',
     html: 'HTML, CSS (SASS, SCSS, Stylus), markup and styling (Bootstrap, Tailwind).',
     delphi: 'Delphi 7, Pascal.',
     python: 'Python on the level to write simple utility scripts.',

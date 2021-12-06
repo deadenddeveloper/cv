@@ -31,7 +31,7 @@ export default {
   },
 
   bio: {
-    about: '<p>Moin. Ich bin Roman. Ich arbeite seit über zehn Jahren als Web-Entwickler.</p><p>Ich habe meine erste Million mit 17 Jahren verdient; leider nicht Euro oder Dollar, sondern weißrussische Rubel. Von daher war es ziemlich leicht. Während des College habe ich neben meinen eigenen Kursarbeiten auf Delphi und C/C++ auch die meiner Kommilitonen für Geld übernommen. Dies war die Zeit in meinem Leben, in der ich meine erste Ausbildung mit der Qualifikation "Techniker Programmierer" abgeschlossen habe.</p><p>Nach dem College habe ich einen Job bekommen, in dem ich nicht viel Arbeit hatte und somit die Welt der Webentwicklung erkunden konnte. Gleichzeitig habe ich studiert, um die "weißrussische Army" zu vermeiden.</p><p>Die drei Jahre in einem ungemütlichen Büro haben mich nicht gefordert, sondern erschöpft. Also habe ich gekündigt. Meine Nebeneinkünfte waren doppelt so hoch wie mein Lohn, daher habe ich mich entschieden als Freiberufler zu arbeiten.</p><p>2010 habe ich mit PHP begonnen. Über die Jahre habe ich viele Erfahrungen mit Joomla, Wordpress, MODx, Prestashop, Opencart und 1C-Bitrix gesammelt. Inzwischen bevorzuge ich Frameworks. Die letzten drei Jahre arbeite ich mit Laravel, und seit kurzem auch mit Nuxt.js und Tailwind.</p>',
+    about: '<p>Moin. Ich bin Roman. Ich arbeite seit über zehn Jahren als Web-Entwickler.</p><p>Ich habe meine erste Million mit 17 Jahren verdient; leider nicht Euro oder Dollar, sondern weißrussische Rubel. Von daher war es ziemlich leicht. Während des College habe ich neben meinen eigenen Kursarbeiten auf Delphi und C/C++ auch die meiner Kommilitonen für Geld übernommen. Dies war die Zeit in meinem Leben, in der ich meine erste Ausbildung mit der Qualifikation "Techniker Programmierer" abgeschlossen habe.</p><p>Nach dem College habe ich einen Job bekommen, in dem ich nicht viel Arbeit hatte und somit die Welt der Webentwicklung erkunden konnte. Gleichzeitig habe ich studiert, um die "weißrussische Army" zu vermeiden.</p><p>Die drei Jahre in einem ungemütlichen Büro haben mich nicht gefordert, sondern erschöpft. Also habe ich gekündigt. Meine Nebeneinkünfte waren doppelt so hoch wie mein Lohn, daher habe ich mich entschieden als Freiberufler zu arbeiten.</p><p>2010 habe ich mit PHP begonnen. Über die Jahre habe ich viele Erfahrungen mit Joomla, Wordpress, MODx, Prestashop, Opencart und 1C-Bitrix gesammelt. Inzwischen bevorzuge ich Frameworks. Die letzte Zeit arbeitete ich viel mit Laravel, auch mit Nuxt.js und Tailwind. Derzeit mache ich hauptsächlich Frontend mit allen beliebten Frameworks.</p>',
     full_name: 'Vollständiger Name',
     location: 'Ort',
     date_of_birth: 'Geburtsdatum',
@@ -42,7 +42,7 @@ export default {
 
   skills: {
     php: 'PHP (plain PHP, Phalcon, Laravel, ein bisschen Sylex und Lumen). Jetzt benutze ich hauptsächlich Laravel.',
-    js: 'JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine), Typescript.',
+    js: 'JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine, Svelte, React, Electron), TypeScript.',
     html: 'HTML, CSS (SASS, SCSS, Stylus), Markup und Styling (Bootstrap, Tailwind).',
     delphi: 'Delphi 7, Pascal.',
     python: 'Python (Basislevel).',
