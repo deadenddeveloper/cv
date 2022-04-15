@@ -167,4 +167,9 @@ export default {
     min: 'Field must be at least {length} characters',
     required: 'Field is required',
   },
+
+  ua: {
+    disclaimer: 'On February 24, 2022, a pigmy nothingness named Putin started and, with the complicity of the mustachioed bastard Lukashenka, is waging war against Ukraine. They destroy Ukrainian cities, kill and rape civilians, loot and even eat dogs. Ukraine will stand, but they need your help.',
+    support: 'Support Ukraine',
+  },
 }

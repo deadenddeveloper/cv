@@ -169,4 +169,9 @@ export default {
     min: 'Поле павінна быць не менш {length} сімвалаў',
     required: 'Поле абавязкова для запаўнення',
   },
+
+  ua: {
+    disclaimer: 'Am 24. Februar 2022 begann ein Missgeburt namens Putin und führt mit der Komplizenschaft des schnauzbärtigen Bastards Lukaschenka Krieg gegen die Ukraine. Sie zerstören ukrainische Städte, töten und vergewaltigen Zivilisten, plündern und essen sogar Hunde. Die Ukraine wird bestehen, aber sie brauchen Ihre Hilfe.',
+    support: 'Unterstützen die Ukraine',
+  },
 }
