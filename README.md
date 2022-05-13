@@ -1,20 +1,5 @@
 # cv
 
-## Build Setup
+My CV as a static multilingual website.
 
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Nuxt 2.15, TailwindCSS 2, FontAwesome 5 / simple PHP script to manage feedback form requests.
