@@ -18,6 +18,7 @@
         <markup-skills id="skills" />
         <markup-languages id="languages" />
         <markup-work id="work" />
+        <markup-projects id="projects" />
         <markup-education id="education" />
         <markup-contacts id="contacts" />
         <div class="text-center pb-20">

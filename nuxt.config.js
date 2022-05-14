@@ -132,7 +132,7 @@ export default {
         'faBriefcase', 'faUniversity', 'faQuoteRight', 'faUserTie', 'faAddressCard', 'faSignature', 'faHome',
         'faCalendarAlt', 'faGlobeEurope', 'faAt', 'faPhone', 'faTerminal', 'faDatabase', 'faServer', 'faMobileAlt',
         'faCubes', 'faCode', 'faCodeBranch', 'faAtom', 'faPastafarianism', 'faGraduationCap', 'faLanguage', 'faPaperPlane',
-        'faSpinner', 'faCheck', 'faInfoCircle', 'faExclamationCircle', 'faSkullCrossbones',
+        'faSpinner', 'faCheck', 'faInfoCircle', 'faExclamationCircle', 'faSkullCrossbones', 'faLightbulb',
       ],
       brands: [
         'faFacebookF', 'faInstagram', 'faGithub', 'faStackOverflow', 'faTelegramPlane', 'faPhp', 'faJs', 'faHtml5',

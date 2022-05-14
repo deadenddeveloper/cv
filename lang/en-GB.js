@@ -28,6 +28,7 @@ export default {
     work: 'Work',
     education: 'Education',
     contacts: 'Contacts',
+    projects: 'Projects',
   },
 
   bio: {
@@ -157,6 +158,17 @@ export default {
       sending: 'Sending...',
       success: 'Your message has been successfully sent',
       error: 'Something went wrong',
+    },
+  },
+
+  projects: {
+    randby: {
+      name: 'Rand.by',
+      description: 'Simple service for generation of random values. Recently I finally found a bit of time to rewrite the project from the pure JS into Nuxt, and also made open API with Express. I regularly use password generator myself.',
+    },
+    kinda: {
+      name: 'Some kind of a blog',
+      description: 'My personal themed blog. It is very specific and made only for simplifying to share among friends. In the stats I see that some people find and read articles. For very long time I am planning global rebuild to better administrate posts.',
     },
   },
 

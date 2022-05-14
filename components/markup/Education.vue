@@ -1,4 +1,4 @@
-<template xmlns="http://www.w3.org/1999/html">
+<template>
   <div class="space-y-10">
     <section-header :title="$t('sections.education')" icon="university" />
 

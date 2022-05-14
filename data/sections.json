@@ -20,6 +20,11 @@
     "title": "sections.work"
   },
   {
+    "name": "projects",
+    "icon": "lightbulb",
+    "title": "sections.projects"
+  },
+  {
     "name": "education",
     "icon": "university",
     "title": "sections.education"

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "projects.randby.name",
+    "description": "projects.randby.description",
+    "link": "https://rand.by",
+    "tags": ["Nuxt", "TailwindCSS", "Express", "MySQL"]
+  },
+  {
+    "name": "projects.kinda.name",
+    "description": "projects.kinda.description",
+    "link": "https://kinda.blog",
+    "tags": ["Laravel", "MySQL"]
+  }
+]

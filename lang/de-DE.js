@@ -28,6 +28,7 @@ export default {
     work: 'Arbeit',
     education: 'Ausbildung',
     contacts: 'Kontakte',
+    projects: 'Projekte',
   },
 
   bio: {
@@ -157,6 +158,17 @@ export default {
       sending: 'Übersendung...',
       success: 'Ihre Nachricht wurde erfolgreich gesendet',
       error: 'Etwas ist schief gelaufen',
+    },
+  },
+
+  projects: {
+    randby: {
+      name: 'Rand.by',
+      description: 'Einfacher Service zur Generierung von Zufallswerten. Kürzlich habe ich endlich ein bisschen Zeit gefunden, das Projekt vom reinen JS in Nuxt umzuschreiben und auch eine offene API mit Express zu machen. Ich selbst benutze regelmäßig den Passwortgenerator.',
+    },
+    kinda: {
+      name: 'Eine Art Blog',
+      description: 'Mein persönlicher Themenblog. Es ist sehr spezifisch und dient nur zur Vereinfachung des Austauschs unter Freunden. In den Statistiken sehe ich, dass einige Leute Artikel finden und lesen. Seit sehr langer Zeit plane ich einen globalen Umbau, um Posten besser verwalten zu können.',
     },
   },
 
