@@ -17,8 +17,16 @@ export default {
           name: 'description',
           content: this.$t('meta.' + currentPage + '.description')
         }
-      ]
+      ],
+      bodyAttrs: {
+        class: this.isModalOpened ? 'overflow-hidden' : ''
+      },
     }
-  }
+  },
+  computed: {
+    isModalOpened () {
+      return this.$store.state.modal.opened
+    }
+  },
 }
 </script>

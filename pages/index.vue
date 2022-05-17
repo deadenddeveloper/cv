@@ -31,6 +31,8 @@
         <back-to-top />
       </div>
     </div>
+
+    <markup-modal />
   </div>
 </template>
 
