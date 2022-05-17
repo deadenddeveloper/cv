@@ -14,7 +14,7 @@ export default {
   place_of_birth: 'Славянка, Приморский край, Россия',
 
   back_to_top: 'Наверх',
-
+  certificate: 'Сертификат',
   copyright: '&copy; 2021 Roman Meyer',
 
   cv: {

@@ -22,6 +22,10 @@
   {
     "name": "languages.de.name",
     "description": "languages.de.description",
+    "certificate": {
+      "name": "telc B1",
+      "src": "/cert/telc_de_b1.jpg"
+    },
     "level": [75, 75, 75, 65]
   },
   {

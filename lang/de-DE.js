@@ -14,7 +14,7 @@ export default {
   place_of_birth: 'Slavyanka, Primorsky Krai, Russland',
 
   back_to_top: 'Zurück nach oben',
-
+  certificate: 'Zertifikat',
   copyright: '&copy; 2021 Roman Meyer',
 
   cv: {

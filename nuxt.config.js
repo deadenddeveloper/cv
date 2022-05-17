@@ -54,6 +54,7 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     'nuxt-i18n',
+    'portal-vue/nuxt',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -132,7 +133,8 @@ export default {
         'faBriefcase', 'faUniversity', 'faQuoteRight', 'faUserTie', 'faAddressCard', 'faSignature', 'faHome',
         'faCalendarAlt', 'faGlobeEurope', 'faAt', 'faPhone', 'faTerminal', 'faDatabase', 'faServer', 'faMobileAlt',
         'faCubes', 'faCode', 'faCodeBranch', 'faAtom', 'faPastafarianism', 'faGraduationCap', 'faLanguage', 'faPaperPlane',
-        'faSpinner', 'faCheck', 'faInfoCircle', 'faExclamationCircle', 'faSkullCrossbones', 'faLightbulb',
+        'faSpinner', 'faCheck', 'faInfoCircle', 'faExclamationCircle', 'faSkullCrossbones', 'faLightbulb', 'faCertificate',
+        'faTimes',
       ],
       brands: [
         'faFacebookF', 'faInstagram', 'faGithub', 'faStackOverflow', 'faTelegramPlane', 'faPhp', 'faJs', 'faHtml5',

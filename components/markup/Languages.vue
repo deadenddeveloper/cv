@@ -6,7 +6,15 @@
       v-for="lang in languages"
       :key="lang.name"
     >
-      <div class="text-lg">{{ $t(lang.name) }}</div>
+      <div class="flex justify-between">
+        <div class="text-lg">{{ $t(lang.name) }}</div>
+        <div v-if="lang.certificate">
+          <ImageViewer :src="lang.certificate.src" class="text-skin-accent">
+            <fa-icon icon="certificate" />
+            <span>{{ $t('certificate') }} ({{ lang.certificate.name }})</span>
+          </ImageViewer>
+        </div>
+      </div>
       <div class="relative pt-1 my-2">
         <div class="overflow-hidden h-2 flex bg-skin-muted bg-opacity-25">
           <div :style="{width: `${lang.level[0] / 4}%`}" v-tooltip="$t('languages.reading')" class="cursor-pointer bg-skin-accent"></div>
@@ -24,6 +32,8 @@
 import languages from '~/data/languages'
 
 export default {
+  components: {},
+
   data: () => ({
     languages,
   }),
