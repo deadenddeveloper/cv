@@ -123,11 +123,18 @@ export default {
       description: 'I got a job offer with relocation to Germany and did not hesitate. I did a few big and ambitious projects in Laravel. Also I maintained a couple of sites on Wordpress and developed custom user interfaces.',
     },
     vke: {
-      time: 'September 2021 - until now',
+      time: 'September 2021 - august 2022',
       post: 'Full stack web-developer',
       firm: 'von Kéler Engineering GmbH',
       location: 'Braunschweig, Germany',
-      description: 'I became a part of the web development team. At first I was engaged in internal projects of the company, and then I did an interesting thing on React inside of Electron.',
+      description: 'I became a part of the web development team. At first I was engaged in internal projects of the company, and then I did an interesting thing on React inside of Electron. In addition, I took part in the rework of a low-level application for Siemens.',
+    },
+    pixelpark: {
+      time: 'September 2022 - until now',
+      post: 'Full stack web-developer',
+      firm: 'Digitas Pixelpark GmbH',
+      location: 'Cologne, Germany',
+      description: 'I joined to big team that deals with large web projects.',
     },
   },
 

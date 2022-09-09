@@ -123,11 +123,18 @@ export default {
       description: 'Ich habe ein Stellenangebot mit Umzug nach Deutschland bekommen und zögerte nicht. Ich habe einige große und ehrgeizige Projekte mit Laravel gemacht. Außerdem pflegte ich einige Websites in Wordpress und entwickelte UI/UX Interfaces.',
     },
     vke: {
-      time: 'September 2021 - bis jetzt',
+      time: 'September 2021 - August 2022',
       post: 'Full Stack Web-Entwickler',
       firm: 'von Kéler Engineering GmbH',
       location: 'Braunschweig, Deutschland',
-      description: 'Ich wurde Teil des Webentwicklungsteams. Zuerst war ich an internen Projekten des Unternehmens beteiligt, und dann habe ich eine interessante Sache mit React und Electron gemacht.',
+      description: 'Ich wurde Teil des Webentwicklungsteams. Zuerst war ich an internen Projekten des Unternehmens beteiligt, und dann habe ich eine interessante Sache mit React und Electron gemacht. Außerdem war ich an der Überarbeitung einer Low-Level-Anwendung für Siemens beteiligt.',
+    },
+    pixelpark: {
+      time: 'September 2022 - bis jetzt',
+      post: 'Full Stack Web-Entwickler',
+      firm: 'Digitas Pixelpark GmbH',
+      location: 'Köln, Deutschland',
+      description: 'Ich bin einem Team beigetreten, das sich mit großen Webprojekten befasst.',
     },
   },
 

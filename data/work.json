@@ -38,5 +38,13 @@
     "firm": "work.vke.firm",
     "description": "work.vke.description",
     "tags": ["Vue.js", "Typescript", "Electron", "Svelte", "React"]
+  },
+  {
+    "time": "work.pixelpark.time",
+    "post": "work.pixelpark.post",
+    "location": "work.pixelpark.location",
+    "firm": "work.pixelpark.firm",
+    "description": "work.pixelpark.description",
+    "tags": ["Vue.js", "Typescript"]
   }
 ]
