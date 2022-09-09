@@ -6,10 +6,14 @@
       :to="switchLocalePath(locale.code)"
       class="inline-block ml-2 rounded opacity-50 hover:opacity-100 focus:outline-none focus:ring-2 ring-blue-500"
       :class="{'opacity-100': currentLocale === locale}"
+      :aria-label="locale.name"
       v-tooltip="locale.name"
     >
       <img
         class="inline rounded w-6 h-6"
+        height="24"
+        width="24"
+        :alt="locale.name"
         :src="require(`~/assets/img/flags/${locale.code}.png`)"
       />
     </nuxt-link>
