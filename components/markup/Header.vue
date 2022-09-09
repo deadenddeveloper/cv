@@ -8,7 +8,7 @@
 					height="47"
           loading="lazy"
           alt="Logo"
-					:src="require(`~/assets/img/logo.png`)"
+					:src="require(`~/assets/img/logo.webp`)"
 				/>
 			</div>
 			<div>

@@ -11,7 +11,7 @@
 						height="180"
 						loading="lazy"
             alt="Roman Meyer"
-            :src="require(`~/assets/img/me.png`)"
+            :src="require(`~/assets/img/me.webp`)"
 					/>
 					<h1 class="text-skin-accent text-4xl">{{ $t('name') }}</h1>
 					<h2 class="text-2xl">{{ $t('post') }}</h2>

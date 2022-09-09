@@ -14,7 +14,7 @@
         height="24"
         width="24"
         :alt="locale.name"
-        :src="require(`~/assets/img/flags/${locale.code}.png`)"
+        :src="require(`~/assets/img/flags/${locale.code}.webp`)"
       />
     </nuxt-link>
   </div>
