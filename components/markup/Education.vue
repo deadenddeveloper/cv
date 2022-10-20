@@ -6,6 +6,7 @@
       v-for="(place, index) in education"
       :key="place.name"
       class="flex flex-col md:flex-row space-x-0 md:space-x-5"
+      data-test="education-item"
     >
       <div class="text-left md:text-center">
         <strong class="relative h-8 pt-1.5 w-64 bg-none md:bg-skin-accent text-skin-base md:text-skin-inverted inline-block text-base md:text-sm whitespace-nowrap">

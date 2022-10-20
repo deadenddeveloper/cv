@@ -5,6 +5,7 @@
     <div
       v-for="lang in languages"
       :key="lang.name"
+      data-test="language-item"
     >
       <div class="flex justify-between">
         <div class="text-lg">{{ $t(lang.name) }}</div>

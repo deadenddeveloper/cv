@@ -7,6 +7,7 @@
         v-for="project in projects"
         :key="project.name"
         class="flex flex-col space-y-5"
+        data-test="projects-item"
       >
         <h3 class="text-xl text-skin-accent text-center w-full">
           <a :href="project.link" target="_blank" class="cursor-pointer underline">{{ $t(project.name) }}</a>

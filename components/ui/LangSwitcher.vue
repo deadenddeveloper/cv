@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div data-test="lang-switcher">
     <nuxt-link
       v-for="locale in availableLocales"
       :key="locale.code"

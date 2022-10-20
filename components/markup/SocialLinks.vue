@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-around">
+  <div class="flex justify-around" data-test="social-links">
     <a
       v-for="link in links"
       :key="link.name"

@@ -3,6 +3,7 @@
     class="w-10 h-10 flex items-center justify-center rounded-full text-2xl transition-colors duration-200 cursor-pointer focus:outline-none text-skin-accent hover:text-skin-accent-hover"
     @click="backToTop"
     v-tooltip="$t('back_to_top')"
+    data-test="back-to-top"
   >
     <fa-icon icon="chevron-up" />
   </div>
