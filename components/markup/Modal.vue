@@ -3,10 +3,12 @@
     <div
       v-if="modalOpened"
       class="z-50 fixed p-10 top-0 left-0 w-full h-full bg-black bg-opacity-90"
+      data-test="modal"
     >
       <div
         @click="closeModal"
         class="absolute top-1 right-1 text-2xl w-10 h-10 flex items-center justify-center cursor-pointer"
+        data-test="modal-close"
       >
         <fa-icon icon="times" />
       </div>

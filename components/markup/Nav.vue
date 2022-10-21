@@ -7,6 +7,7 @@
         class="w-10 h-10 flex items-center justify-center rounded-full text-2xl transition-colors duration-200 cursor-pointer focus:outline-none text-skin-accent hover:text-skin-accent-hover"
         v-tooltip="{content: $t(section.title), placement: 'left'}"
         @click="$emit('goto', section.name)"
+        :data-test="`goto-${section.name}`"
       >
         <fa-icon :icon="section.icon" />
       </li>

@@ -1,6 +1,6 @@
 describe('Home page markup', () => {
 	before(() => {
-		cy.visit('http://localhost:3000');
+		cy.visit('/');
 	});
 
 	context('header', () => {
@@ -37,7 +37,7 @@ describe('Home page markup', () => {
 		});
 
 		it('has download button', () => {
-			cy.get('aside').find('a[download]');
+			cy.get('aside').find('[data-test="cv-download"]');
 		});
 	});
 

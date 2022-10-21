@@ -7,7 +7,7 @@ import education from '../../data/education';
 
 describe('Home page content', () => {
 	before(() => {
-		cy.visit('http://localhost:3000');
+		cy.visit('/');
 	});
 
 	context('aside', () => {

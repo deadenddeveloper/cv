@@ -2,6 +2,7 @@
   <button
     @click="openModal"
     class="focus:outline-none focus:ring-0"
+    data-test="modal-opener"
   >
     <slot></slot>
 

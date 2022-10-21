@@ -5,6 +5,7 @@
       :download="`romanmeyer_${currentLocale.code}.pdf`"
       target="_blank"
       :href="`/cv/romanmeyer_${currentLocale.code}.pdf`"
+      data-test="cv-download"
     >
       <fa-icon icon="file-pdf" />
       <span>{{ $t('cv.download') }}</span>
