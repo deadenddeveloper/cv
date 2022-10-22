@@ -1,6 +1,12 @@
 describe('Home page markup', () => {
 	before(() => {
-		cy.visit('/');
+		cy.visit('/', {
+			onBeforeLoad(win) {
+				Object.defineProperty(win.navigator, 'language', {
+					value: 'ru'
+				});
+			}
+		});
 	});
 
 	context('header', () => {

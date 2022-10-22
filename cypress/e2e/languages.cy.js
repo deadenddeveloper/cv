@@ -1,28 +1,32 @@
-const langs = ['en', 'de', 'by'];
+const langs = ['ru', 'en', 'de', 'by'];
 const text = {
+	ru: 'Dead end web разработчик',
 	en: 'Dead end web developer',
 	de: 'Dead End Web Entwickler',
 	by: 'Dead end web распрацоўшчык'
 };
 
 describe('Switching languages', () => {
-	before(() => {
-		cy.visit('/');
-	});
-
-	it('can load russian as default', () => {
-		cy.get('aside')
-			.find('h2')
-			.contains('Dead end web разработчик');
+	it('can correct load language', () => {
+		cy.visit('/', {
+			onBeforeLoad(win) {
+				Object.defineProperty(win.navigator, 'language', {
+					value: 'en'
+				});
+			}
+		})
+			.its('navigator.language')
+			.should('equal', 'en');
 	});
 
 	for (const lang of langs) {
+		const l = lang === 'ru' ? '' : lang;
 		it(`can switch to ${lang} and correct render texts`, () => {
 			cy.get('header')
-				.find(`[data-test="lang-switcher"] a[href="/${lang}"]`)
-				.click();
+				.find(`[data-test="lang-switcher"] a[href="/${l}"]`)
+				.click({ force: true });
 
-			cy.url().should('be.equal', `${Cypress.config('baseUrl')}/${lang}`);
+			cy.url().should('be.equal', `${Cypress.config('baseUrl')}/${l}`);
 
 			cy.get('aside')
 				.find('h2')
