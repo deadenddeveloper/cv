@@ -3,7 +3,7 @@ describe('Home page markup', () => {
 		cy.visit('/', {
 			onBeforeLoad(win) {
 				Object.defineProperty(win.navigator, 'language', {
-					value: 'ru'
+					value: 'ru-RU'
 				});
 			}
 		});

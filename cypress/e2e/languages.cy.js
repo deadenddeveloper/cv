@@ -11,12 +11,12 @@ describe('Switching languages', () => {
 		cy.visit('/', {
 			onBeforeLoad(win) {
 				Object.defineProperty(win.navigator, 'language', {
-					value: 'en'
+					value: 'en-GB'
 				});
 			}
 		})
 			.its('navigator.language')
-			.should('equal', 'en');
+			.should('equal', 'en-GB');
 	});
 
 	for (const lang of langs) {

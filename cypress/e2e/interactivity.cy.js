@@ -2,7 +2,13 @@ const path = require('path');
 
 describe('Interactive elements', () => {
 	before(() => {
-		cy.visit('/');
+		cy.visit('/', {
+			onBeforeLoad(win) {
+				Object.defineProperty(win.navigator, 'language', {
+					value: 'ru-RU'
+				});
+			}
+		});
 	});
 
 	it('can download CV', () => {
