@@ -4,7 +4,7 @@
 
     <div class="max-w-md mx-auto space-y-12">
       <validation-observer v-slot="{ invalid }" ref="contactsForm">
-        <form class="p-4 grid grid-cols-1 gap-6" @submit.prevent="submitForm" data-netlify=true>
+        <form class="p-4 grid grid-cols-1 gap-6" @submit.prevent="submitForm">
 
           <label class="block">
             <validation-provider :name="$t(`contacts.form.name`)" rules="alpha_spaces" v-slot="{ errors }">
