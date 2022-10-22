@@ -30,6 +30,5 @@
     "prettier": "1.19.1",
     "sass": "^1.32.12",
     "sass-loader": "^10.1.1"
-  },
-  "optionalDependencies": { "fsevents": "2.3.2" }
+  }
 }
