@@ -31,4 +31,13 @@ describe('Switching languages', () => {
 				});
 		});
 	}
+
+	it('returns page 404 if route not found', () => {
+		cy.visit('not_found', { failOnStatusCode: false });
+
+		cy.get('h1').contains('404');
+		cy.get('a').click();
+
+		cy.url().should('be.equal', `${Cypress.config('baseUrl')}/`);
+	});
 });
