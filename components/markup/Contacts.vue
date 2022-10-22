@@ -4,7 +4,7 @@
 
     <div class="max-w-md mx-auto space-y-12">
       <validation-observer v-slot="{ invalid }" ref="contactsForm">
-        <form class="p-4 grid grid-cols-1 gap-6" @submit.prevent="submitForm">
+        <form class="p-4 grid grid-cols-1 gap-6" @submit.prevent="submitForm" netlify>
 
           <label class="block">
             <validation-provider :name="$t(`contacts.form.name`)" rules="alpha_spaces" v-slot="{ errors }">
@@ -63,7 +63,6 @@
 import { ValidationObserver, ValidationProvider } from 'vee-validate';
 import { required, alpha_spaces, min, email } from 'vee-validate/dist/rules';
 import { extend } from 'vee-validate';
-import AlertMessage from "../ui/AlertMessage";
 
 extend("required", required);
 extend("alpha_spaces", alpha_spaces);
@@ -72,7 +71,6 @@ extend("email", email);
 
 export default {
   components: {
-    AlertMessage,
     ValidationObserver,
     ValidationProvider,
   },
@@ -86,6 +84,14 @@ export default {
     messageTimeout: null,
   }),
   methods: {
+    encode (data) {
+      return Object.keys(data)
+        .map(
+          key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+        )
+        .join("&");
+    },
+
     resetForm() {
       this.name = '';
       this.email = '';
@@ -94,6 +100,7 @@ export default {
         this.$refs.contactsForm.reset();
       });
     },
+
     submitForm() {
       this.isLoading = true;
       this.successMessage = '';
@@ -101,10 +108,13 @@ export default {
       clearTimeout(this.messageTimeout);
 
       this.$axios
-        .post('/contact.php', {
+        .post('/', this.encode({
+          'form-name': 'contacts',
           name: this.name,
           email: this.email,
           comment: this.comment,
+        }), {
+          header: { "Content-Type": "application/x-www-form-urlencoded" }
         })
         .then(response => {
           this.successMessage = this.$t('contacts.form.success');
