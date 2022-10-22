@@ -2,13 +2,7 @@ const path = require('path');
 
 describe('Interactive elements', () => {
 	before(() => {
-		cy.visit('/', {
-			onBeforeLoad(win) {
-				Object.defineProperty(win.navigator, 'language', {
-					value: 'ru-RU'
-				});
-			}
-		});
+		cy.visit('/en');
 	});
 
 	it('can download CV', () => {
@@ -19,8 +13,12 @@ describe('Interactive elements', () => {
 				expect(filename).to.match(/\.pdf$/);
 			});
 
+		cy.get('aside')
+			.find('[data-test="cv-download"]')
+			.click();
+
 		const downloadsFolder = Cypress.config('downloadsFolder');
-		cy.readFile(path.join(downloadsFolder, 'romanmeyer_ru.pdf')).should('exist');
+		cy.readFile(path.join(downloadsFolder, 'romanmeyer_en.pdf')).should('exist');
 	});
 
 	it('can scroll to blocks', () => {

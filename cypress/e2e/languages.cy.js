@@ -7,16 +7,8 @@ const text = {
 };
 
 describe('Switching languages', () => {
-	it('can correct load language', () => {
-		cy.visit('/', {
-			onBeforeLoad(win) {
-				Object.defineProperty(win.navigator, 'language', {
-					value: 'en-GB'
-				});
-			}
-		})
-			.its('navigator.language')
-			.should('equal', 'en-GB');
+	before(() => {
+		cy.visit('/');
 	});
 
 	for (const lang of langs) {

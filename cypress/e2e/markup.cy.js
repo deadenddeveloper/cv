@@ -1,12 +1,6 @@
 describe('Home page markup', () => {
 	before(() => {
-		cy.visit('/', {
-			onBeforeLoad(win) {
-				Object.defineProperty(win.navigator, 'language', {
-					value: 'ru-RU'
-				});
-			}
-		});
+		cy.visit('/en');
 	});
 
 	context('header', () => {
@@ -29,13 +23,13 @@ describe('Home page markup', () => {
 		it('has name', () => {
 			cy.get('aside')
 				.find('h1')
-				.contains('Роман Майер');
+				.contains('Roman Meyer');
 		});
 
 		it('has post', () => {
 			cy.get('aside')
 				.find('h2')
-				.contains('Dead end web разработчик');
+				.contains('Dead end web developer');
 		});
 
 		it('has social links', () => {

@@ -7,13 +7,7 @@ import education from '../../data/education';
 
 describe('Home page content', () => {
 	before(() => {
-		cy.visit('/', {
-			onBeforeLoad(win) {
-				Object.defineProperty(win.navigator, 'language', {
-					value: 'ru-RU'
-				});
-			}
-		});
+		cy.visit('/');
 	});
 
 	context('aside', () => {
