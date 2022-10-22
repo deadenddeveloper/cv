@@ -2,22 +2,18 @@
   <div
     class="flex align-top text-skin-inverted px-6 py-2 border-0 rounded relative mb-4"
     :class="`bg-skin-${type}`"
+    role="alert"
   >
     <span class="text-xl inline-block mr-5">
       <fa-icon v-if="icon" :icon="icon" />
       <fa-icon v-if="!icon" :icon="defaultIcon" />
     </span>
-    <span class="inline-block">
-      <slot></slot>
-    </span>
+    <span class="inline-block"><slot></slot></span>
   </div>
 </template>
 
 <script>
 export default {
-  data: () => ({
-    allowedTypes: ['info', 'success', 'warning', 'danger'],
-  }),
   props: {
     type: {
       type: String,
