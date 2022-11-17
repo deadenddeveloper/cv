@@ -43,6 +43,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Build
+      - run: npm run generate
+
       - name: Deploy to netlify
         uses: netlify/actions/cli@master
         env:
