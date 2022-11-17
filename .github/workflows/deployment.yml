@@ -28,6 +28,7 @@ jobs:
           wait-on: http://localhost:3000
           browser: chrome
           record: true
+          parallel: true
 
       - name: Deploy to netlify
         uses: netlify/actions/cli@master
