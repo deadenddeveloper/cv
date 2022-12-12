@@ -5,14 +5,16 @@
 		<div class="flex flex-col lg:flex-row space-x-0 lg:space-x-10">
 			<aside class="relative w-full lg:w-1/3">
 				<div class="w-full sticky top-24 p-12 pt-2 lg:p-4 text-center space-y-10">
-					<img
-						class="inline w-3/4 rounded rounded-full"
-						width="180"
-						height="180"
-						loading="lazy"
-            alt="Roman Meyer"
-            :src="require(`~/assets/img/me.webp`)"
-					/>
+          <div class="inline-block text-center w-3/4">
+            <blurhash-img
+              :width="180"
+              :height="180"
+              :blurhash="'LJGu,nRj~qRj?bxuRjM{D%j[RjRj'"
+              :src="require(`~/assets/img/me.webp`)"
+              class="overflow-hidden rounded rounded-full"
+              alt="Roman Meyer"
+            />
+          </div>
 					<h1 class="text-skin-accent text-4xl">{{ $t('name') }}</h1>
 					<h2 class="text-2xl">{{ $t('post') }}</h2>
 					<markup-social-links />
