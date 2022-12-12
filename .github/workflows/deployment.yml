@@ -28,7 +28,8 @@ jobs:
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
         with:
-          build: npm run generate
+          install: false
+          build: npm i && npm run generate
           start: npm start
           wait-on: http://localhost:3000
           browser: chrome
@@ -37,7 +38,7 @@ jobs:
           group: 'e2e tests'
 
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     needs: ['cypress-run']
     steps:
       - name: Checkout
