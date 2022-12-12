@@ -22,6 +22,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16.x
+      - run: npm install
 
       - name: Cypress run
         uses: cypress-io/github-action@v4
@@ -29,7 +30,7 @@ jobs:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
         with:
           install: false
-          build: npm i && npm run generate
+          build: npm run generate
           start: npm start
           wait-on: http://localhost:3000
           browser: chrome
