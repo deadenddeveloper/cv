@@ -10,7 +10,7 @@
     >
       <ul class="space-y-2">
         <li v-for="skill in group.skills" class="flex" data-test="skill-item">
-          <span class="text-skin-accent w-6 text-center mr-4">
+          <span class="text-skin-accent w-6 flex-shrink-0 text-center mr-4">
             <fa-icon :icon="skill.icon" />
           </span>
           <span>{{ $t(skill.text) }}</span>

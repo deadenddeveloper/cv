@@ -14,6 +14,8 @@
     "skills": [
       {"icon": ["fab", "wordpress"], "text": "skills.cms"},
       {"icon": "database", "text": "skills.db"},
+      {"icon": "vial", "text": "skills.testing"},
+      {"icon": "infinity", "text": "skills.deploy"},
       {"icon": "server", "text": "skills.environment"},
       {"icon": ["fab", "windows"], "text": "skills.win"},
       {"icon": "mobile-alt", "text": "skills.winphone"}

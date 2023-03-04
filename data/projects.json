@@ -3,12 +3,30 @@
     "name": "projects.randby.name",
     "description": "projects.randby.description",
     "link": "https://rand.by",
-    "tags": ["Nuxt", "TailwindCSS", "Express", "MySQL"]
+    "tags": ["Nuxt 2", "TailwindCSS 2", "Express", "MySQL"]
   },
   {
     "name": "projects.kinda.name",
     "description": "projects.kinda.description",
     "link": "https://kinda.blog",
-    "tags": ["Laravel", "MySQL"]
+    "tags": ["Laravel 7", "MySQL"]
+  },
+  {
+    "name": "projects.blurhash.name",
+    "description": "projects.blurhash.description",
+    "link": "https://blurhash-demo.web.app",
+    "tags": ["Nuxt 3", "TailwindCSS 3"]
+  },
+  {
+    "name": "projects.debtcalc.name",
+    "description": "projects.debtcalc.description",
+    "link": "https://deadenddeveloper.github.io/debtcalc/",
+    "tags": ["React 18", "TailwindCSS 3"]
+  },
+  {
+    "name": "projects.travelcalc.name",
+    "description": "projects.travelcalc.description",
+    "link": "https://travelcalc.pages.dev",
+    "tags": ["Qwik", "TailwindCSS 3"]
   }
 ]

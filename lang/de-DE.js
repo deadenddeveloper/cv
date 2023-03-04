@@ -35,7 +35,7 @@ export default {
 
 	bio: {
 		about:
-			'<p>Moin. Ich bin Roman. Ich arbeite seit über elf Jahren als Web-Entwickler.</p><p>Ich habe meine erste Million mit 17 Jahren verdient; leider nicht Euro oder Dollar, sondern weißrussische Rubel. Von daher war es ziemlich leicht. Während des College habe ich neben meinen eigenen Kursarbeiten auf Delphi und C/C++ auch die meiner Kommilitonen für Geld übernommen. Dies war die Zeit in meinem Leben, in der ich meine erste Ausbildung mit der Qualifikation "Techniker Programmierer" abgeschlossen habe.</p><p>Nach dem College habe ich einen Job bekommen, in dem ich nicht viel Arbeit hatte und somit die Welt der Webentwicklung erkunden konnte. Gleichzeitig habe ich studiert, um die "weißrussische Army" zu vermeiden.</p><p>Die drei Jahre in einem ungemütlichen Büro haben mich nicht gefordert, sondern erschöpft. Also habe ich gekündigt. Meine Nebeneinkünfte waren doppelt so hoch wie mein Lohn, daher habe ich mich entschieden als Freiberufler zu arbeiten.</p><p>2010 habe ich mit PHP begonnen. Über die Jahre habe ich viele Erfahrungen mit Joomla, Wordpress, MODx, Prestashop, Opencart und 1C-Bitrix gesammelt. Inzwischen bevorzuge ich Frameworks. Die letzte Zeit arbeitete ich viel mit Laravel, auch mit Nuxt.js und Tailwind. Derzeit mache ich hauptsächlich Frontend mit allen beliebten Frameworks.</p>',
+			'<p>Moin. Ich bin Roman. Ich arbeite seit über zwölf Jahren als Web-Entwickler.</p><p>Ich habe meine erste Million mit 17 Jahren verdient; leider nicht Euro oder Dollar, sondern weißrussische Rubel. Von daher war es ziemlich leicht. Während des College habe ich neben meinen eigenen Kursarbeiten auf Delphi und C/C++ auch die meiner Kommilitonen für Geld übernommen. Dies war die Zeit in meinem Leben, in der ich meine erste Ausbildung mit der Qualifikation "Techniker Programmierer" abgeschlossen habe.</p><p>Nach dem College habe ich einen Job bekommen, in dem ich nicht viel Arbeit hatte und somit die Welt der Webentwicklung erkunden konnte. Gleichzeitig habe ich studiert, um die "weißrussische Army" zu vermeiden.</p><p>Die drei Jahre in einem ungemütlichen Büro haben mich nicht gefordert, sondern erschöpft. Also habe ich gekündigt. Meine Nebeneinkünfte waren doppelt so hoch wie mein Lohn, daher habe ich mich entschieden als Freiberufler zu arbeiten.</p><p>2010 habe ich mit PHP begonnen. Über die Jahre habe ich viele Erfahrungen mit Joomla, Wordpress, MODx, Prestashop, Opencart und 1C-Bitrix gesammelt. Inzwischen bevorzuge ich Frameworks. Die letzte Zeit arbeitete ich viel mit Laravel, auch mit Nuxt.js und Tailwind. Derzeit mache ich hauptsächlich Frontend mit allen beliebten Frameworks.</p>',
 		full_name: 'Vollständiger Name',
 		location: 'Ort',
 		date_of_birth: 'Geburtsdatum',
@@ -48,16 +48,18 @@ export default {
 		php:
 			'PHP (plain PHP, Phalcon, Laravel, ein bisschen Sylex und Lumen). Jetzt benutze ich hauptsächlich Laravel.',
 		js:
-			'JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine, Svelte, React, Electron, Node/Express), TypeScript.',
+			'JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine, Svelte, React, Qwik, Electron, Node/Express), TypeScript.',
 		html: 'HTML, CSS (SASS, SCSS, Stylus), Markup und Styling (Bootstrap, Tailwind).',
 		delphi: 'Delphi 7, Pascal.',
 		python: 'Python (Basislevel).',
 
 		cms:
 			'Viele Erfahrungen mit CMS Joomla, MODX, Drupal, Opencart, 1С-Bitrix, Prestashop, Wordpress und vielen selbstgemachten Systemen.',
-		db: 'Datenbanken (MySQL‚ Informix‚ dBase, Mongo)‚ SQL Wissen.',
+		db: 'Datenbanken (MySQL‚ Postgres, Informix‚ dBase, Mongo)‚ SQL Wissen.',
+		testing: 'Automatizierte Testing (Jest, Mocha, Cypress, Playwright).',
+		deploy: 'CI/CD (Github, Gitlab, Bitbucket, AWS).',
 		environment:
-			'Installieren und Aufrechterhalten von Web-Dev Server Umgebungen (Homestead, PHP, MySQL, Apache, Nginx) auf Windows und Unix.',
+			'Installieren und Aufrechterhalten von Web-Dev Server Umgebungen (Homestead, PHP, MySQL, Apache, Nginx, Docker) auf Windows und Unix.',
 		win: 'Windows 8 Apps (HTML+JS).',
 		winphone: 'Windows Phone 8 mobile Apps (HTML+JS, XAML+C#).',
 
@@ -103,6 +105,10 @@ export default {
 			name: 'Polnisch',
 			description:
 				'Mein Verständnis ist fast perfekt, aber ich spreche und schreibe diese Sprache nicht so gut.'
+		},
+		es: {
+			name: 'Spanisch',
+			description: 'Neue Herausforderung für mich.'
 		}
 	},
 
@@ -196,6 +202,21 @@ export default {
 			name: 'Eine Art Blog',
 			description:
 				'Mein persönlicher Themenblog. Es ist sehr spezifisch und dient nur zur Vereinfachung des Austauschs unter Freunden. In den Statistiken sehe ich, dass einige Leute Artikel finden und lesen. Seit sehr langer Zeit plane ich einen globalen Umbau, um Posten besser verwalten zu können.'
+		},
+		blurhash: {
+			name: 'BlurHash demo',
+			description:
+				'Für eine Präsentation auf der Arbeit musste ich zeigen, was blurhash ist, wie man es benutzt und welche Alternativen es gibt. Dann habe ich entschieden, ein Demoprojekt zu erstellen und damit die neueste Version von Nuxt zu verwenden. Ausser der Demo ist da auch ein Konverter.'
+		},
+		debtcalc: {
+			name: 'Debt Calculator',
+			description:
+				'Eine Webapp zum Berechnen von Schulden in Gruppen. Auf Reisen gibt es oft Verwirrung darüber, wer wem wie viel Geld schuldet. Um nicht alles auf einem Blatt Papier oder in Excel zu berechnen, habe ich den Rechner in React implementiert.'
+		},
+		travelcalc: {
+			name: 'Reiserechner',
+			description:
+				'Noch eine Sache, die auf Reisen helfen könnte. Damit kann man Preise in Fremdwährungen schnell in gewohnte Währung umrechnen, und auch gucken, wie viele Stunden man arbeiten muss, um einen Einkauf zu tätigen. Implementiert in Qwik mit Integration mehrerer React-Komponenten.'
 		}
 	},
 

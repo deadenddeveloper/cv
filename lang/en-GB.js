@@ -35,7 +35,7 @@ export default {
 
 	bio: {
 		about:
-			'<p>Hi. My name is Roman. I am already working as a web-developer more than eleven years.</p><p>I earned my first million when I was 17 years old. Unfortunately, that was not euros or dollars, but belarussian rubles, so it was pretty easy to earn. In addition to my own course work, I also took on that of my college mates` on Delphi and C/C++ for money. It was the period of my life when I was getting my first education and got the qualification "technician programmer".</p><p>After the college I got a job where I didn\'t have to work a lot and I could use my time for the world of web-development. At the same time I was getting senseless high education just to avoid army.</p><p>Three years of sitting in an uncomfortable office and watching series exhausted me, so I quit. My side income was already twice more than my salary, so I could move to freelance without any doubt.</p><p>In 2010 I started developing with pure PHP. Over the years I have had a lot of experience with Joomla, Wordpress, MODx, Prestashop, Opencart and even 1C-Bitrix. Finally, I moved to using frameworks. The last time I have worked with Laravel, discovered Nuxt.js and Tailwind for myself, and at the current time I am mostly doing frontend, using all the popular frameworks.</p>',
+			'<p>Hi. My name is Roman. I am already working as a web-developer more than twelve years.</p><p>I earned my first million when I was 17 years old. Unfortunately, that was not euros or dollars, but belarussian rubles, so it was pretty easy to earn. In addition to my own course work, I also took on that of my college mates` on Delphi and C/C++ for money. It was the period of my life when I was getting my first education and got the qualification "technician programmer".</p><p>After the college I got a job where I didn\'t have to work a lot and I could use my time for the world of web-development. At the same time I was getting senseless high education just to avoid army.</p><p>Three years of sitting in an uncomfortable office and watching series exhausted me, so I quit. My side income was already twice more than my salary, so I could move to freelance without any doubt.</p><p>In 2010 I started developing with pure PHP. Over the years I have had a lot of experience with Joomla, Wordpress, MODx, Prestashop, Opencart and even 1C-Bitrix. Finally, I moved to using frameworks. The last time I have worked with Laravel, discovered Nuxt.js and Tailwind for myself, and at the current time I am mostly doing frontend, using all the popular frameworks.</p>',
 		full_name: 'Full name',
 		location: 'Location',
 		date_of_birth: 'Date of birth',
@@ -47,16 +47,18 @@ export default {
 	skills: {
 		php: 'PHP (plain PHP, Phalcon, Laravel, a bit Sylex and Lumen). Now I am mostly using Laravel.',
 		js:
-			'JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine, Svelte, React, Electron, Node/Express), TypeScript.',
+			'JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine, Svelte, React, Qwik, Electron, Node/Express), TypeScript.',
 		html: 'HTML, CSS (SASS, SCSS, Stylus), markup and styling (Bootstrap, Tailwind).',
 		delphi: 'Delphi 7, Pascal.',
 		python: 'Python on the level to write simple utility scripts.',
 
 		cms:
 			'Lots of experience with CMS Joomla, MODX, Drupal, Opencart, 1С-Bitrix, Prestashop, Wordpress and a bunch of self-made systems.',
-		db: 'Databases (MySQL‚ Informix‚ dBase, Mongo)‚ SQL knowing.',
+		db: 'Databases (MySQL‚ Postgres, Informix‚ dBase, Mongo)‚ SQL knowing.',
+		testing: 'Automatic testing (Jest, Mocha, Cypress, Playwright).',
+		deploy: 'CI/CD (Github, Gitlab, Bitbucket, AWS).',
 		environment:
-			'Installing and maintaing web-dev server environment (Homestead, PHP, MySQL, Apache, Nginx) on Windows and Unix.',
+			'Installing and maintaing web-dev server environment (Homestead, PHP, MySQL, Apache, Nginx, Docker) on Windows and Unix.',
 		win: 'Windows 8 applications (HTML+JS).',
 		winphone: 'Windows Phone 8 mobile applications (HTML+JS, XAML+C#).',
 
@@ -102,6 +104,10 @@ export default {
 		pl: {
 			name: 'Polish',
 			description: "My understanding is good, but I can't use the language very well."
+		},
+		es: {
+			name: 'Spanish',
+			description: 'New challenge for me.'
 		}
 	},
 
@@ -195,6 +201,21 @@ export default {
 			name: 'Some kind of a blog',
 			description:
 				'My personal themed blog. It is very specific and made only for simplifying to share among friends. In the stats I see that some people find and read articles. For very long time I am planning global rebuild to better administrate posts.'
+		},
+		blurhash: {
+			name: 'BlurHash demo',
+			description:
+				'For a presentation at work I needed to show what blurhash is, how to use it and what alternatives it has. To do that I decided to make a demo project and use the latest version of Nuxt at the same time. There is also a converter inside the demo.'
+		},
+		debtcalc: {
+			name: 'Debt Calculator',
+			description:
+				'Web application for calculating debts in groups. Often when traveling there is confusion about who owes whom and how much money in the end. To avoid count it all on a piece of paper or in Excel, I implemented the calculator on React.'
+		},
+		travelcalc: {
+			name: 'Travel Calculator',
+			description:
+				'Another thing might be useful when traveling. Allows you to quickly convert prices in a foreign currency to the usual, and can also show how many hours you need to work to make some purchase. Implemented with Qwik and integration of several React components.'
 		}
 	},
 

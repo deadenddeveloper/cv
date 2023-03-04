@@ -32,5 +32,10 @@
     "name": "languages.pl.name",
     "description": "languages.pl.description",
     "level": [80, 20, 70, 50]
+  },
+  {
+    "name": "languages.es.name",
+    "description": "languages.es.description",
+    "level": [5, 5, 5, 5]
   }
 ]
