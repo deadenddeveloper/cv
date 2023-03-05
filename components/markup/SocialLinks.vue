@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-around" data-test="social-links">
     <a
-      @click="() => handleClick(link)"
+      @click="() => gtmPushSocialLink({url: link.url})"
       v-for="link in links"
       :key="link.name"
       v-tooltip="link.name"
@@ -17,16 +17,14 @@
 
 <script>
 import links from '~/data/links'
+import { gtmPushSocialLink } from "~/utils/gtm";
 
 export default {
   data: () => ({
     links,
   }),
   methods: {
-    handleClick: (link) => {
-      console.log('click', {event: 'social_click', link: link.url});
-      dataLayer.push({event: 'social_click', link: link.url});
-    },
+    gtmPushSocialLink,
   },
 }
 </script>
