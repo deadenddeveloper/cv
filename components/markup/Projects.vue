@@ -10,7 +10,12 @@
         data-test="projects-item"
       >
         <h3 class="text-xl text-skin-accent text-center w-full">
-          <a :href="project.link" target="_blank" class="cursor-pointer underline">{{ $t(project.name) }}</a>
+          <a
+            @click="() => gtmPushProjectOpened(project.link)"
+            :href="project.link"
+            target="_blank"
+            class="cursor-pointer underline"
+          >{{ $t(project.name) }}</a>
         </h3>
         <p class="text-sm text-justify" style="text-indent: 20px;">{{ $t(project.description) }}</p>
         <tag-list :tags="project.tags" />
@@ -21,8 +26,12 @@
 
 <script>
 import projects from '~/data/projects'
+import { gtmPushProjectOpened } from "~/utils/gtm";
 
 export default {
+  methods: {
+    gtmPushProjectOpened
+  },
   data: () => ({
     projects,
   }),

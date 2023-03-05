@@ -1,6 +1,7 @@
 <template>
   <div data-test="lang-switcher">
     <nuxt-link
+      @click.native="() => gtmPushLangChange(locale.code)"
       v-for="locale in availableLocales"
       :key="locale.code"
       :to="switchLocalePath(locale.code)"
@@ -21,7 +22,12 @@
 </template>
 
 <script>
+import { gtmPushLangChange } from "~/utils/gtm";
+
 export default {
+  methods: {
+    gtmPushLangChange
+  },
   computed: {
     currentLocale() {
       return this.$i18n.locales.filter(i => i.code === this.$i18n.locale)[0];

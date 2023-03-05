@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-around" data-test="social-links">
     <a
-      @click="() => gtmPushSocialLink({url: link.url})"
+      @click="() => gtmPushSocialLink(link.url)"
       v-for="link in links"
       :key="link.name"
       v-tooltip="link.name"
