@@ -26,7 +26,7 @@
       "name": "telc B1",
       "src": "/cert/telc_de_b1.jpg"
     },
-    "level": [75, 75, 75, 65]
+    "level": [85, 85, 85, 80]
   },
   {
     "name": "languages.pl.name",
@@ -36,6 +36,6 @@
   {
     "name": "languages.es.name",
     "description": "languages.es.description",
-    "level": [5, 5, 5, 5]
+    "level": [10, 10, 10, 10]
   }
 ]
