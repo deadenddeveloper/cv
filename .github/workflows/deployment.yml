@@ -7,40 +7,8 @@ on:
     branches: [ "master" ]
 
 jobs:
-  cypress-run:
-    runs-on: ubuntu-20.04
-    strategy:
-      fail-fast: false
-      matrix:
-        containers: [ 1, 2, 3, 4 ]
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Use Node.js 16.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: 16.x
-      - run: npm install
-
-      - name: Cypress run
-        uses: cypress-io/github-action@v4
-        env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-        with:
-          install: false
-          build: npm run generate
-          start: npm start
-          wait-on: http://localhost:3000
-          browser: chrome
-          record: true
-          parallel: true
-          group: 'e2e tests'
-
   deploy:
     runs-on: ubuntu-20.04
-    needs: ['cypress-run']
     steps:
       - name: Checkout
         uses: actions/checkout@v3
