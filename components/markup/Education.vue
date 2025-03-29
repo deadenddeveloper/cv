@@ -19,7 +19,17 @@
         <span v-if="index !== education.length - 1" class="inline-block ml-4 border-r border-skin-base h-full"></span>
       </div>
       <div class="flex-grow space-y-2 mt-1">
-        <div class="text-lg text-skin-accent">{{ $t(place.name) }}</div>
+        <div class="text-lg text-skin-accent">
+          <a
+            v-if="place.link"
+            :href="place.link"
+            class="text-lg text-skin-accent cursor-pointer underline"
+            target="_blank"
+          >{{ $t(place.name) }}</a>
+          <span v-else class="text-lg text-skin-accent">
+						{{ $t(place.name) }}
+					</span>
+        </div>
         <div>{{ $t(place.location) }}</div>
         <div>{{ $t(place.post) }}</div>
         <div class="text-sm text-left">{{ $t(place.speciality) }}</div>

@@ -6,12 +6,6 @@
     "tags": ["Nuxt 2", "TailwindCSS 2", "Express", "MySQL"]
   },
   {
-    "name": "projects.kinda.name",
-    "description": "projects.kinda.description",
-    "link": "https://kinda.blog",
-    "tags": ["Laravel 7", "MySQL"]
-  },
-  {
     "name": "projects.blurhash.name",
     "description": "projects.blurhash.description",
     "link": "https://blurhash-demo.web.app",

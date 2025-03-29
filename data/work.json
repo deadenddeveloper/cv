@@ -5,6 +5,8 @@
     "location": "work.svitanak.location",
     "firm": "work.svitanak.firm",
     "description": "work.svitanak.description",
+    "link": "https://svitanak.by",
+    "image": "svitanak.webp",
     "tags": ["Delphi", "Fast Report", "Informix", "dBase"]
   },
   {
@@ -13,6 +15,8 @@
     "location": "work.itgarant.location",
     "firm": "work.itgarant.firm",
     "description": "work.itgarant.description",
+    "link": "https://itg-soft.by",
+    "image": "itgarant.webp",
     "tags": ["Joomla", "Drupal", "Windows 8", "Windows Phone"]
   },
   {
@@ -29,6 +33,8 @@
     "location": "work.recoma.location",
     "firm": "work.recoma.firm",
     "description": "work.recoma.description",
+    "link": "https://reco.ma",
+    "image": "recoma.webp",
     "tags": ["Laravel", "Vue.js", "jQuery", "MySQL", "Wordpress"]
   },
   {
@@ -37,14 +43,18 @@
     "location": "work.vke.location",
     "firm": "work.vke.firm",
     "description": "work.vke.description",
+    "link": "https://www.vke.io",
+    "image": "vke.webp",
     "tags": ["Vue.js", "Typescript", "Electron", "Svelte", "React"]
   },
   {
-    "time": "work.pixelpark.time",
-    "post": "work.pixelpark.post",
-    "location": "work.pixelpark.location",
-    "firm": "work.pixelpark.firm",
-    "description": "work.pixelpark.description",
-    "tags": ["Vue.js", "Typescript"]
+    "time": "work.digitas.time",
+    "post": "work.digitas.post",
+    "location": "work.digitas.location",
+    "firm": "work.digitas.firm",
+    "description": "work.digitas.description",
+    "link": "https://www.digitas.de",
+    "image": "digitas.webp",
+    "tags": ["Vue.js", "Typescript", "PHP"]
   }
 ]

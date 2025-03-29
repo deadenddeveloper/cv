@@ -18,11 +18,9 @@
 					<h1 class="text-skin-accent text-4xl">{{ $t('name') }}</h1>
 					<h2 class="text-2xl">{{ $t('post') }}</h2>
 					<markup-social-links />
-					<markup-cv-link />
 				</div>
 			</aside>
 			<main class="w-full lg:w-2/3 space-y-32 mt-3 px-4 lg:px-0">
-				<slava-ukraine />
 				<markup-bio id="bio" />
 				<markup-skills id="skills" />
 				<markup-languages id="languages" />

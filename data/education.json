@@ -4,13 +4,15 @@
     "post": "education.bscli.post",
     "speciality": "education.bscli.speciality",
     "location": "education.bscli.location",
-    "name": "education.bscli.name"
+    "name": "education.bscli.name",
+    "link": "https://bgklp.by"
   },
   {
     "time": "education.grsu.time",
     "post": "education.grsu.post",
     "speciality": "education.grsu.speciality",
     "location": "education.grsu.location",
-    "name": "education.grsu.name"
+    "name": "education.grsu.name",
+    "link": "https://www.grsu.by"
   }
 ]

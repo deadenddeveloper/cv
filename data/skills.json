@@ -6,7 +6,8 @@
       {"icon": ["fab", "js"], "text": "skills.js"},
       {"icon": ["fab", "html5"], "text": "skills.html"},
       {"icon": "terminal", "text": "skills.delphi"},
-      {"icon": ["fab", "python"], "text": "skills.python"}
+      {"icon": ["fab", "python"], "text": "skills.python"},
+      {"icon": ["fab", "rust"], "text": "skills.rust"}
     ]
   },
   {

@@ -1,32 +1,32 @@
 [
   {
+    "name": "Email",
+    "icon": "at",
+    "url": "mailto:roman.v.meyer@gmail.com"
+  },
+  {
     "name": "Facebook",
-    "icon": "facebook-f",
+    "icon": ["fab", "facebook-f"],
     "url": "https://www.facebook.com/roman.v.meyer"
   },
   {
-    "name": "Instagram",
-    "icon": "instagram",
-    "url": "https://www.instagram.com/the_stupid_dick/"
-  },
-  {
-    "name": "Telegram",
-    "icon": "telegram-plane",
-    "url": "https://t.me/romanmeyer"
+    "name": "Whatsapp",
+    "icon": ["fab", "whatsapp"],
+    "url": "https://wa.me/+4915173025661"
   },
   {
     "name": "GitHub",
-    "icon": "github",
+    "icon": ["fab", "github"],
     "url": "https://github.com/deadenddeveloper"
   },
   {
     "name": "LinkedIn",
-    "icon": "linkedin",
+    "icon": ["fab", "linkedin"],
     "url": "https://www.linkedin.com/in/roman-meyer-19a9a6160/"
   },
   {
     "name": "Stack Overflow",
-    "icon": "stack-overflow",
+    "icon": ["fab", "stack-overflow"],
     "url": "https://stackoverflow.com/users/2132773/roman-meyer"
   }
 ]

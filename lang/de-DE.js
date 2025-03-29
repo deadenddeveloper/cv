@@ -35,7 +35,7 @@ export default {
 
 	bio: {
 		about:
-			'<p>Moin. Ich bin Roman. Ich arbeite seit über zwölf Jahren als Web-Entwickler.</p><p>Ich habe meine erste Million mit 17 Jahren verdient; leider nicht Euro oder Dollar, sondern weißrussische Rubel. Von daher war es ziemlich leicht. Während des College habe ich neben meinen eigenen Kursarbeiten auf Delphi und C/C++ auch die meiner Kommilitonen für Geld übernommen. Dies war die Zeit in meinem Leben, in der ich meine erste Ausbildung mit der Qualifikation "Techniker Programmierer" abgeschlossen habe.</p><p>Nach dem College habe ich einen Job bekommen, in dem ich nicht viel Arbeit hatte und somit die Welt der Webentwicklung erkunden konnte. Gleichzeitig habe ich studiert, um die "weißrussische Army" zu vermeiden.</p><p>Die drei Jahre in einem ungemütlichen Büro haben mich nicht gefordert, sondern erschöpft. Also habe ich gekündigt. Meine Nebeneinkünfte waren doppelt so hoch wie mein Lohn, daher habe ich mich entschieden als Freiberufler zu arbeiten.</p><p>2010 habe ich mit PHP begonnen. Über die Jahre habe ich viele Erfahrungen mit Joomla, Wordpress, MODx, Prestashop, Opencart und 1C-Bitrix gesammelt. Inzwischen bevorzuge ich Frameworks. Die letzte Zeit arbeitete ich viel mit Laravel, auch mit Nuxt.js und Tailwind. Derzeit mache ich hauptsächlich Frontend mit allen beliebten Frameworks.</p>',
+      '<p>Moin. Mein Name ist Roman. Ich bin seit 2010 beruflich in der Webentwicklung tätig.</p><p>Meine erste Million habe ich mit 17 verdient, noch bevor ich meine aktuelle Karriere begonnen habe. Allerdings war diese Million nicht in Euro oder Dollar, sondern in belarussischen Rubeln, sodass es nicht schwer war, sie zu verdienen. Ich habe einfach für meine Kommilitonen am College Hausarbeiten über Delphi und C/C++ geschrieben. Während meiner ersten Ausbildung habe ich die Fachrichtung „Techniker-Programmierer“ erworben.</p><p>Nach dem College bekam ich einen Job, bei dem ich nicht hart arbeiten musste und in aller Ruhe in die Welt des Internets eintauchen konnte. Gleichzeitig absolvierte ich ein Fernstudium in der Uni.</p><p>Drei Jahre lang in einem unbequemen Zimmer zu sitzen und Serien anzuschauen, ging mir auf die Nerven und ich kündigte. Mein Nebeneinkommen war doppelt so hoch wie mein Gehalt, also konnte ich es mir leisten, freiberuflich zu arbeiten.</p><p>Ich begann 2010 mit reinem PHP und sammelte viel Erfahrung mit Joomla, Wordpress, MODx, Prestashop, Opencart und sogar 1C-Bitrix und wechselte schließlich zu Frameworks. In letzter Zeit habe ich aktiv in Laravel geschrieben, Nuxt.js und Tailwind entdeckt, aber im Frontend habe ich es geschafft, mit allen gängigen Dingen zu arbeiten.</p>',
 		full_name: 'Vollständiger Name',
 		location: 'Ort',
 		date_of_birth: 'Geburtsdatum',
@@ -48,13 +48,14 @@ export default {
 		php:
 			'PHP (plain PHP, Phalcon, Laravel, ein bisschen Sylex und Lumen). Jetzt benutze ich hauptsächlich Laravel.',
 		js:
-			'JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine, Svelte, React, Qwik, Electron, Node/Express), TypeScript.',
+			'JavaScript (plain JS, Node/Express, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine, Svelte/SvelteKit, React/Remix/Next.js, Qwik, Electron, Angular), TypeScript.',
 		html: 'HTML, CSS (SASS, SCSS, Stylus), Markup und Styling (Bootstrap, Tailwind).',
 		delphi: 'Delphi 7, Pascal.',
 		python: 'Python (Basislevel).',
+    rust: 'Oberflächliche Kenntnisse über Rust, Verständnis seiner Prinzipien und seines Anwendungsbereichs.',
 
 		cms:
-			'Viele Erfahrungen mit CMS Joomla, MODX, Drupal, Opencart, 1С-Bitrix, Prestashop, Wordpress und vielen selbstgemachten Systemen.',
+			'Viele Erfahrungen mit CMS Joomla, MODX, Drupal, Opencart, 1С-Bitrix, Prestashop, Wordpress, BigCommerce, FirstSpirit, AEM, TYPO3 und vielen selbstgemachten Systemen.',
 		db: 'Datenbanken (MySQL‚ Postgres, Informix‚ dBase, Mongo)‚ SQL Wissen.',
 		testing: 'Automatizierte Testing (Jest, Mocha, Cypress, Playwright).',
 		deploy: 'CI/CD (Github, Gitlab, Bitbucket, AWS).',
@@ -99,7 +100,7 @@ export default {
 		de: {
 			name: 'Deutsch',
 			description:
-				'Ich lerne Deutsch erst seit drei Jahren, meistens alleine. Ich nutze sie aktuell täglich, aber habe manchmal noch einige Schwierigkeiten mich auszudrücken.'
+				'Ich lerne seit 2019 Deutsch, größtenteils alleine. Ich nutze sie aktuell täglich, aber "Das Leben ist zu kurz, um Deutsch zu lernen"',
 		},
 		pl: {
 			name: 'Polnisch',
@@ -108,7 +109,7 @@ export default {
 		},
 		es: {
 			name: 'Spanisch',
-			description: 'Neue Herausforderung für mich.'
+			description: 'Neue Herausforderung für mich. Je mehr ich lerne, desto mehr verstehe ich, dass es nicht so einfach ist, wie alle sagen.'
 		}
 	},
 
@@ -153,12 +154,12 @@ export default {
 			description:
 				'Ich wurde Teil des Webentwicklungsteams. Zuerst war ich an internen Projekten des Unternehmens beteiligt, und dann habe ich eine interessante Sache mit React und Electron gemacht. Außerdem war ich an der Überarbeitung einer Low-Level-Anwendung für Siemens beteiligt.'
 		},
-		pixelpark: {
+    digitas: {
 			time: 'September 2022 - bis jetzt',
 			post: 'Full Stack Web-Entwickler',
-			firm: 'Digitas Pixelpark GmbH',
+			firm: 'Digitas GmbH',
 			location: 'Köln, Deutschland',
-			description: 'Ich bin einem Team beigetreten, das sich mit großen Webprojekten befasst.'
+			description: 'Dies ist eine riesige internationale Agentur, die große Webprojekte durchführt. Ich war an der Entwicklung und Betreuung von Grohe, dem Berliner Flughafen, ITZ Bund und Bindella beteiligt, wo es einen ganzen Zoo unterschiedlicher Technologien gibt.'
 		}
 	},
 
@@ -198,11 +199,6 @@ export default {
 			description:
 				'Einfacher Service zur Generierung von Zufallswerten. Kürzlich habe ich endlich ein bisschen Zeit gefunden, das Projekt vom reinen JS in Nuxt umzuschreiben und auch eine offene API mit Express zu machen. Ich selbst benutze regelmäßig den Passwortgenerator.'
 		},
-		kinda: {
-			name: 'Eine Art Blog',
-			description:
-				'Mein persönlicher Themenblog. Es ist sehr spezifisch und dient nur zur Vereinfachung des Austauschs unter Freunden. In den Statistiken sehe ich, dass einige Leute Artikel finden und lesen. Seit sehr langer Zeit plane ich einen globalen Umbau, um Posten besser verwalten zu können.'
-		},
 		blurhash: {
 			name: 'BlurHash demo',
 			description:
@@ -226,11 +222,5 @@ export default {
 		email: 'Feld muss eine gültige E-Mail-Adresse sein',
 		min: 'Feld muss mindestens {length} Zeichen lang sein',
 		required: 'Feld ist ein Pflichtfeld'
-	},
-
-	ua: {
-		disclaimer:
-			'Am 24. Februar 2022 begann ein Missgeburt namens Putin und führt mit der Komplizenschaft des schnauzbärtigen Bastards Lukaschenka Krieg gegen die Ukraine. Sie zerstören ukrainische Städte, töten und vergewaltigen Zivilisten, plündern und essen sogar Hunde. Die Ukraine wird bestehen, aber sie brauchen Ihre Hilfe.',
-		support: 'Unterstützen die Ukraine'
 	}
 };

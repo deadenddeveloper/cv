@@ -183,7 +183,9 @@ export default {
 				'faPython',
 				'faWordpress',
 				'faWindows',
-				'faLinkedin'
+				'faLinkedin',
+        'faWhatsapp',
+        'faRust'
 			]
 		}
 	}

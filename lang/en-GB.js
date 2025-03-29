@@ -35,7 +35,7 @@ export default {
 
 	bio: {
 		about:
-			'<p>Hi. My name is Roman. I am already working as a web-developer more than twelve years.</p><p>I earned my first million when I was 17 years old. Unfortunately, that was not euros or dollars, but belarussian rubles, so it was pretty easy to earn. In addition to my own course work, I also took on that of my college mates` on Delphi and C/C++ for money. It was the period of my life when I was getting my first education and got the qualification "technician programmer".</p><p>After the college I got a job where I didn\'t have to work a lot and I could use my time for the world of web-development. At the same time I was getting senseless high education just to avoid army.</p><p>Three years of sitting in an uncomfortable office and watching series exhausted me, so I quit. My side income was already twice more than my salary, so I could move to freelance without any doubt.</p><p>In 2010 I started developing with pure PHP. Over the years I have had a lot of experience with Joomla, Wordpress, MODx, Prestashop, Opencart and even 1C-Bitrix. Finally, I moved to using frameworks. The last time I have worked with Laravel, discovered Nuxt.js and Tailwind for myself, and at the current time I am mostly doing frontend, using all the popular frameworks.</p>',
+      '<p>Hello. My name is Roman. I have been professionally involved in web development since 2010.</p><p>I earned my first million at the age of 17, even before I switched to my current activity. True, this million was not euros or dollars, but Belarusian rubles, so it was not difficult to earn it. I was simply doing works on Delphi and C / C ++ for my classmates in college. This was during the period of receiving my first education, where I acquired the specialty of "technician-programmer".</p><p>After college, I got a job where I did not have to strain myself too much and I calmly got involved in the world of the web. In parallel with this, I received higher education.</p><p>Three years of sitting in an uncomfortable room and watching series got pretty boring for me and I quit. My side income was twice my salary, so I could afford to just go freelance.</p><p>Starting in 2010 with bare PHP, I gained a lot of experience with Joomla, Wordpress, MODx, Prestashop, Opencart and even 1C-Bitrix, and finally moved on to frameworks. Lately, I have been actively writing in Laravel, discovered Nuxt.js and Tailwind, but in the frontend I managed to work with all the popular things.</p>',
 		full_name: 'Full name',
 		location: 'Location',
 		date_of_birth: 'Date of birth',
@@ -45,15 +45,16 @@ export default {
 	},
 
 	skills: {
-		php: 'PHP (plain PHP, Phalcon, Laravel, a bit Sylex and Lumen). Now I am mostly using Laravel.',
+		php: 'PHP (plain PHP, Phalcon, Laravel, a bit Sylex and Lumen).',
 		js:
-			'JavaScript (plain JS, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine, Svelte, React, Qwik, Electron, Node/Express), TypeScript.',
+			'JavaScript (plain JS, Node/Express, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine, Svelte/SvelteKit, React/Remix/Next.js, Qwik, Electron, Angular), TypeScript.',
 		html: 'HTML, CSS (SASS, SCSS, Stylus), markup and styling (Bootstrap, Tailwind).',
 		delphi: 'Delphi 7, Pascal.',
 		python: 'Python on the level to write simple utility scripts.',
+    rust: 'Superficial knowledge of Rust, understanding its principles and scope of usage.',
 
 		cms:
-			'Lots of experience with CMS Joomla, MODX, Drupal, Opencart, 1С-Bitrix, Prestashop, Wordpress and a bunch of self-made systems.',
+			'Lots of experience with CMS Joomla, MODX, Drupal, Opencart, 1С-Bitrix, Prestashop, Wordpress, BigCommerce, FirstSpirit, AEM, TYPO3 and a bunch of self-made systems.',
 		db: 'Databases (MySQL‚ Postgres, Informix‚ dBase, Mongo)‚ SQL knowing.',
 		testing: 'Automatic testing (Jest, Mocha, Cypress, Playwright).',
 		deploy: 'CI/CD (Github, Gitlab, Bitbucket, AWS).',
@@ -94,12 +95,12 @@ export default {
 		en: {
 			name: 'English',
 			description:
-				"I've been learning English since I was five years old. I have no big problems, only some confusions with using times."
+				"I am on learning English since I was five years old. I have no big problems, only some confusions with using times."
 		},
 		de: {
 			name: 'German',
 			description:
-				"I've been learning it for three years, mostly by myself. I have practice every day. But I still have problems with expressing myself in German."
+				'I have been learning German since 2019, mostly on my own. I have practice every day. There are difficulties, the expression "Das Leben ist zu kurz, um Deutsch zu lernen" is not senseless.'
 		},
 		pl: {
 			name: 'Polish',
@@ -107,7 +108,7 @@ export default {
 		},
 		es: {
 			name: 'Spanish',
-			description: 'New challenge for me.'
+			description: 'New challenge for me. The more I study, the more I understand that it is not as easy as could seem.'
 		}
 	},
 
@@ -152,12 +153,12 @@ export default {
 			description:
 				'I became a part of the web development team. At first I was engaged in internal projects of the company, and then I did an interesting thing on React inside of Electron. In addition, I took part in the rework of a low-level application for Siemens.'
 		},
-		pixelpark: {
+    digitas: {
 			time: 'September 2022 - until now',
 			post: 'Full stack web-developer',
-			firm: 'Digitas Pixelpark GmbH',
+			firm: 'Digitas GmbH',
 			location: 'Cologne, Germany',
-			description: 'I joined to big team that deals with large web projects.'
+			description: 'This is a huge international agency that does large web projects. I took part in the development and support of Grohe, Berlin Airport, ITZ Bund, Bindella, where there is a pile of different technologies.'
 		}
 	},
 
@@ -197,11 +198,6 @@ export default {
 			description:
 				'Simple service for generation of random values. Recently I finally found a bit of time to rewrite the project from the pure JS into Nuxt, and also made open API with Express. I regularly use password generator myself.'
 		},
-		kinda: {
-			name: 'Some kind of a blog',
-			description:
-				'My personal themed blog. It is very specific and made only for simplifying to share among friends. In the stats I see that some people find and read articles. For very long time I am planning global rebuild to better administrate posts.'
-		},
 		blurhash: {
 			name: 'BlurHash demo',
 			description:
@@ -225,11 +221,5 @@ export default {
 		email: 'Field must be a valid email',
 		min: 'Field must be at least {length} characters',
 		required: 'Field is required'
-	},
-
-	ua: {
-		disclaimer:
-			'On February 24, 2022, a pigmy nothingness named Putin started and, with the complicity of the mustachioed bastard Lukashenka, is waging war against Ukraine. They destroy Ukrainian cities, kill and rape civilians, loot and even eat dogs. Ukraine will stand, but they need your help.',
-		support: 'Support Ukraine'
 	}
 };
