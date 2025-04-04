@@ -101,15 +101,13 @@ export default {
 				iso: 'by-BY',
 				name: 'Беларуская',
 				file: 'by-BY.js'
-			}
-			/*
+			},
       {
         code: 'pl',
         iso: 'pl-PL',
         name: 'Polski',
         file: 'pl-PL.js'
-      },
-      */
+      }
 		],
 		seo: true,
 		baseUrl: 'https://romanmeyer.dev',
