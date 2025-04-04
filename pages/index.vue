@@ -6,12 +6,11 @@
 			<aside class="relative w-full lg:w-1/3">
 				<div class="w-full sticky top-24 p-12 pt-2 lg:p-4 text-center space-y-10">
           <div class="inline-block text-center w-3/4">
-            <blurhash-img
+            <img
               :width="180"
               :height="180"
-              :blurhash="'LJGu,nRj~qRj?bxuRjM{D%j[RjRj'"
               :src="require(`~/assets/img/me.webp`)"
-              class="overflow-hidden rounded rounded-full"
+              class="inline-block overflow-hidden rounded rounded-full"
               alt="Roman Meyer"
             />
           </div>
