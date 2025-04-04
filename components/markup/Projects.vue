@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-10">
+  <div class="space-y-10 no-print">
     <section-header :title="$t('sections.projects')" icon="lightbulb" />
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 gap-y-8">

@@ -22,6 +22,14 @@
     --color-warning: 251, 146, 60; /* #FB923C */
     --color-danger: 248, 113, 113; /* #f87171 */
   }
+
+  @media print
+  {
+    .no-print, .no-print *
+    {
+      display: none !important;
+    }
+  }
 }
 
 /*

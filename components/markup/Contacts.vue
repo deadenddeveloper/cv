@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-10">
+  <div class="space-y-10 no-print">
     <section-header :title="$t('sections.contacts')" icon="address-card" />
 
     <div class="max-w-md mx-auto space-y-12">

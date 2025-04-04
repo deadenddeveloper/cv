@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-10">
+  <div class="space-y-10 no-print">
     <section-header :title="$t('sections.bio')" icon="fingerprint" />
     <div id="bioAbout" class="text-justify space-y-2" v-html="$t('bio.about')"></div>
     <div class="text-lg text-center grid grid-cols-1 md:grid-cols-2 gap-4">
