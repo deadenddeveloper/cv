@@ -28,5 +28,10 @@
     "name": "education",
     "icon": "university",
     "title": "sections.education"
+  },
+  {
+    "name": "hobbies",
+    "icon": "heart",
+    "title": "sections.hobbies"
   }
 ]

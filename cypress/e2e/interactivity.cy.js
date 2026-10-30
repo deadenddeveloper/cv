@@ -22,7 +22,7 @@ describe('Interactive elements', () => {
 	});
 
 	it('can scroll to blocks', () => {
-		const blocks = ['bio', 'skills', 'languages', 'work', 'projects', 'education'];
+		const blocks = ['bio', 'skills', 'languages', 'work', 'projects', 'education', 'hobbies'];
 
 		for (const block of blocks) {
 			cy.get('nav[data-test="main-nav"]')
