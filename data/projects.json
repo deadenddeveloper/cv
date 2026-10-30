@@ -1,26 +1,45 @@
 [
   {
+    "name": "projects.moneydude.name",
+    "description": "projects.moneydude.description",
+    "link": "https://moneydu.de",
+    "image": "moneydude.png",
+    "tags": [
+      "Laravel 13",
+      "Vue 3",
+      "Inertia"
+    ]
+  },
+  {
+    "name": "projects.metalhead.name",
+    "description": "projects.metalhead.description",
+    "link": "https://www.metalhe.ad",
+    "tags": [
+      "Laravel 13",
+      "Nuxt 4"
+    ],
+    "icon": "skull-crossbones"
+  },
+  {
     "name": "projects.randby.name",
     "description": "projects.randby.description",
     "link": "https://rand.by",
-    "tags": ["Nuxt 2", "TailwindCSS 2", "Express", "MySQL"]
-  },
-  {
-    "name": "projects.blurhash.name",
-    "description": "projects.blurhash.description",
-    "link": "https://blurhash-demo.web.app",
-    "tags": ["Nuxt 3", "TailwindCSS 3"]
-  },
-  {
-    "name": "projects.debtcalc.name",
-    "description": "projects.debtcalc.description",
-    "link": "https://deadenddeveloper.github.io/debtcalc/",
-    "tags": ["React 18", "TailwindCSS 3"]
+    "image": "randby.png",
+    "tags": [
+      "Nuxt 2",
+      "TailwindCSS 2",
+      "Express",
+      "MySQL"
+    ]
   },
   {
     "name": "projects.travelcalc.name",
     "description": "projects.travelcalc.description",
     "link": "https://travelcalc.pages.dev",
-    "tags": ["Qwik", "TailwindCSS 3"]
+    "image": "travelcalc.png",
+    "tags": [
+      "Qwik",
+      "TailwindCSS 3"
+    ]
   }
 ]

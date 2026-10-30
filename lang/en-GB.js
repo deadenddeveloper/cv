@@ -1,13 +1,15 @@
 export default {
 	meta: {
 		index: {
-			title: 'Roman Meyer - Dead end developer',
-			description: 'full stack web developer web-dev php laravel javascript nuxt vue'
+			title: 'Roman Meyer — Tech Lead / Web Architect',
+			description:
+				'Tech Lead and Web Architect. Full stack development since 2010: PHP, Laravel, JavaScript, TypeScript, Vue and React.'
 		}
 	},
 
 	name: 'Roman Meyer',
-	post: 'Dead end web developer',
+	post: 'Tech Lead / Web Architect',
+	availability: 'Open to Tech Lead or Web Architect opportunities',
 	full_name: 'Roman Meyer',
 	address: 'Buxtehude, Lower Saxony, Germany',
 	date_of_birth: 'Februar 9, 1991',
@@ -24,6 +26,7 @@ export default {
 	},
 
 	sections: {
+		hobbies: 'Hobbies',
 		bio: 'About me',
 		skills: 'Skills',
 		languages: 'Languages',
@@ -35,7 +38,7 @@ export default {
 
 	bio: {
 		about:
-      '<p>Hello. My name is Roman. I have been professionally involved in web development since 2010.</p><p>I earned my first million at the age of 17, even before I switched to my current activity. True, this million was not euros or dollars, but Belarusian rubles, so it was not difficult to earn it. I was simply doing works on Delphi and C / C ++ for my classmates in college. This was during the period of receiving my first education, where I acquired the specialty of "technician-programmer".</p><p>After college, I got a job where I did not have to strain myself too much and I calmly got involved in the world of the web. In parallel with this, I received higher education.</p><p>Three years of sitting in an uncomfortable room and watching series got pretty boring for me and I quit. My side income was twice my salary, so I could afford to just go freelance.</p><p>Starting in 2010 with bare PHP, I gained a lot of experience with Joomla, Wordpress, MODx, Prestashop, Opencart and even 1C-Bitrix, and finally moved on to frameworks. Lately, I have been actively writing in Laravel, discovered Nuxt.js and Tailwind, but in the frontend I managed to work with all the popular things.</p>',
+			"<p>Hi, I'm Roman. I've been working professionally in web development since 2010. I've gone from CMS websites and freelance work to building and maintaining large web projects at German companies and an international agency. My background is full stack: PHP, JavaScript and TypeScript, with extensive experience in Laravel and a range of frontend frameworks.</p><p>I earned my first million back in college, writing Delphi and C/C++ coursework for classmates. It was in Belarusian roubles, admittedly. The technology and scale of the work have changed a lot since then, but I still enjoy figuring out how things work and how to improve them.</p><p>Over the past few years, I've gradually shifted towards technical leadership, spending more time on mentoring, organising work and managing projects. I enjoy looking at a project as a whole: understanding the problem, choosing suitable solutions and helping the team deliver them. I'm now looking for a Tech Lead or Web Architect role where I can put that experience to work and take greater responsibility for a project's technical direction.</p><p>AI has become part of my work too. I use it where it helps me move a task forward, but I check its suggestions and make sure I understand the code that goes into the project. I want to know why a solution works, how to maintain it and what problems it might cause later.</p>",
 		full_name: 'Full name',
 		location: 'Location',
 		date_of_birth: 'Date of birth',
@@ -45,32 +48,46 @@ export default {
 	},
 
 	skills: {
-		php: 'PHP (plain PHP, Phalcon, Laravel, a bit Sylex and Lumen).',
-		js:
-			'JavaScript (plain JS, Node/Express, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine, Svelte/SvelteKit, React/Remix/Next.js, Qwik, Electron, Angular), TypeScript.',
-		html: 'HTML, CSS (SASS, SCSS, Stylus), markup and styling (Bootstrap, Tailwind).',
-		delphi: 'Delphi 7, Pascal.',
-		python: 'Python on the level to write simple utility scripts.',
-    rust: 'Superficial knowledge of Rust, understanding its principles and scope of usage.',
-
-		cms:
-			'Lots of experience with CMS Joomla, MODX, Drupal, Opencart, 1С-Bitrix, Prestashop, Wordpress, BigCommerce, FirstSpirit, AEM, TYPO3 and a bunch of self-made systems.',
-		db: 'Databases (MySQL‚ Postgres, Informix‚ dBase, Mongo)‚ SQL knowing.',
-		testing: 'Automatic testing (Jest, Mocha, Cypress, Playwright).',
-		deploy: 'CI/CD (Github, Gitlab, Bitbucket, AWS).',
-		environment:
-			'Installing and maintaing web-dev server environment (Homestead, PHP, MySQL, Apache, Nginx, Docker) on Windows and Unix.',
-		win: 'Windows 8 applications (HTML+JS).',
-		winphone: 'Windows Phone 8 mobile applications (HTML+JS, XAML+C#).',
-
-		oop: 'Understanding of OOP, MVC, design patterns.',
-		coding:
-			'Ability to puzzle out foreign code, habit to write self-documented code and add comments only when it is really necessary.',
-		vcs: 'Ability to work with version control systems.',
-		algorithm:
-			'Understanding of algorithmization‚ data structures‚ estimating the complexity of algorithms.',
-		spaghetti: 'Ability to understand and refactor any spaghetti-code.',
-		learn: 'Fast learner.'
+		leadership: {
+			title: 'Technical leadership and architecture',
+			description:
+				'Stack selection, architecture design and development planning. Led a small team of developers and a designer, carried out code reviews and mentored junior developers.'
+		},
+		backend: {
+			title: 'Backend',
+			description:
+				'My main stack is PHP and Laravel. I also have experience with other PHP frameworks, Node.js and Express. I used to use Python extensively for practical tasks, but advances in AI tools have removed that need in my current work.'
+		},
+		frontend: {
+			title: 'Frontend',
+			description:
+				'JavaScript, TypeScript, Vue.js / Nuxt and React / Next.js. I particularly enjoyed Svelte and SvelteKit, though market demand meant that experience was limited to a couple of personal projects. Experience with Qwik, Angular and Electron. HTML, CSS, preprocessors and Tailwind.'
+		},
+		maintenance: {
+			title: 'Working with existing code',
+			description:
+				'I find my way around unfamiliar projects, track down problems and refactor code. I draw on OOP, design patterns and an understanding of algorithms and data structures. I try to leave code that the next developer can understand.'
+		},
+		databases: {
+			title: 'Databases',
+			description:
+				'I work with relational databases: MySQL, PostgreSQL and SQLite. I know SQL and also have experience with MongoDB.'
+		},
+		infrastructure: {
+			title: 'Testing and infrastructure',
+			description:
+				'Jest, Mocha, Cypress and Playwright. Git, CI/CD, Docker, and setting up environments for web development and application deployment.'
+		},
+		ai: {
+			title: 'AI in development',
+			description:
+				"I started with GitHub Copilot and JetBrains AI tools. These days I prefer GPT and Codex, as I'm happy with the quality of their work. I provide context and constraints, check proposed solutions and understand the code before using it in a project."
+		},
+		cms: {
+			title: 'CMS',
+			description:
+				'Experience building and maintaining projects with WordPress, Joomla, MODX, Drupal, OpenCart, PrestaShop, 1C-Bitrix, BigCommerce, FirstSpirit, AEM and TYPO3.'
+		}
 	},
 
 	languages: {
@@ -95,7 +112,7 @@ export default {
 		en: {
 			name: 'English',
 			description:
-				"I am on learning English since I was five years old. I have no big problems, only some confusions with using times."
+				'I am on learning English since I was five years old. I have no big problems, only some confusions with using times.'
 		},
 		de: {
 			name: 'German',
@@ -108,11 +125,20 @@ export default {
 		},
 		es: {
 			name: 'Spanish',
-			description: 'New challenge for me. The more I study, the more I understand that it is not as easy as could seem.'
+			description:
+				'New challenge for me. The more I study, the more I understand that it is not as easy as could seem.'
 		}
 	},
 
 	work: {
+		bauproplus: {
+			time: 'January 2026 — November 2026',
+			post: 'Tech Lead',
+			firm: 'BauProPlus',
+			location: 'Nastätten, Germany',
+			description:
+				"Developed a platform to automate a construction company's workflows: time tracking, personnel management and project planning. Chose a monorepo with a Laravel API and Vue 3 frontend. Designed the core architecture and data models, set up CI and deployment. Prepared instructions and guidelines for AI-assisted development so that changes would fit the project's architecture. The company later discontinued development."
+		},
 		svitanak: {
 			time: 'August 2010 - October 2013',
 			post: 'Software engineer',
@@ -153,12 +179,13 @@ export default {
 			description:
 				'I became a part of the web development team. At first I was engaged in internal projects of the company, and then I did an interesting thing on React inside of Electron. In addition, I took part in the rework of a low-level application for Siemens.'
 		},
-    digitas: {
-			time: 'September 2022 - until now',
+		digitas: {
+			time: 'September 2022 — December 2025',
 			post: 'Full stack web-developer',
 			firm: 'Digitas GmbH',
 			location: 'Cologne, Germany',
-			description: 'This is a huge international agency that does large web projects. I took part in the development and support of Grohe, Berlin Airport, ITZ Bund, Bindella, where there is a pile of different technologies.'
+			description:
+				'This is a huge international agency that does large web projects. I took part in the development and support of Grohe, Berlin Airport, ITZ Bund, Bindella, where there is a pile of different technologies.'
 		}
 	},
 
@@ -193,26 +220,30 @@ export default {
 	},
 
 	projects: {
+		moneydude: {
+			name: 'MoneyDude',
+			description:
+				'A service for tracking shared expenses on trips and in everyday life. Supports different ways to split costs, multiple currencies and a clear view of who owes whom. I regularly use it with friends and develop it around our real needs too.'
+		},
+		metalhead: {
+			name: 'Metalhead',
+			description:
+				"I'm building a portal for heavy music fans and musicians to make finding information and connecting with others easier. Plans include a knowledge base, events and tools for organising shared trips to gigs and festivals. The project is in development."
+		},
 		randby: {
 			name: 'Rand.by',
 			description:
-				'Simple service for generation of random values. Recently I finally found a bit of time to rewrite the project from the pure JS into Nuxt, and also made open API with Express. I regularly use password generator myself.'
-		},
-		blurhash: {
-			name: 'BlurHash demo',
-			description:
-				'For a presentation at work I needed to show what blurhash is, how to use it and what alternatives it has. To do that I decided to make a demo project and use the latest version of Nuxt at the same time. There is also a converter inside the demo.'
-		},
-		debtcalc: {
-			name: 'Debt Calculator',
-			description:
-				'Web application for calculating debts in groups. Often when traveling there is confusion about who owes whom and how much money in the end. To avoid count it all on a piece of paper or in Excel, I implemented the calculator on React.'
+				'A service for generating random numbers, passwords, lists and other values. I rewrote it from plain JavaScript to Nuxt and added a public API built with Express. I regularly use the password generator myself.'
 		},
 		travelcalc: {
-			name: 'Travel Calculator',
+			name: "Traveller's calculator",
 			description:
-				'Another thing might be useful when traveling. Allows you to quickly convert prices in a foreign currency to the usual, and can also show how many hours you need to work to make some purchase. Implemented with Qwik and integration of several React components.'
+				'A small personal project to try out Qwik and React component integration. Converts prices into a familiar currency and shows how much working time a purchase costs.'
 		}
+	},
+
+	hobbies: {
+		description: 'Outside work: futsal and football, heavy music, computer games, books and travel.'
 	},
 
 	validation: {

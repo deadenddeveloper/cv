@@ -9,11 +9,14 @@
       :data-test="`skill-group-${group.name}`"
     >
       <ul class="space-y-2">
-        <li v-for="skill in group.skills" class="flex" data-test="skill-item">
+        <li v-for="skill in group.skills" :key="skill.text" class="flex" data-test="skill-item">
           <span class="text-skin-accent w-6 flex-shrink-0 text-center mr-4">
             <fa-icon :icon="skill.icon" />
           </span>
-          <span>{{ $t(skill.text) }}</span>
+          <div>
+            <h3 class="font-semibold text-skin-accent">{{ $t(skill.title) }}</h3>
+            <p class="text-base">{{ $t(skill.text) }}</p>
+          </div>
         </li>
       </ul>
     </div>
@@ -21,11 +24,11 @@
 </template>
 
 <script>
-import skills from '~/data/skills'
+import skills from '~/data/skills';
 
 export default {
   data: () => ({
-    skills,
-  }),
-}
+    skills
+  })
+};
 </script>

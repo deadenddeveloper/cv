@@ -167,7 +167,14 @@ export default {
 				'faCertificate',
 				'faTimes',
 				'faVial',
-				'faInfinity'
+				'faInfinity',
+        'faRobot',
+        'faHeart',
+        'faFutbol',
+        'faMusic',
+        'faGamepad',
+        'faBookOpen',
+        'faPlane'
 			],
 			brands: [
 				'faFacebookF',

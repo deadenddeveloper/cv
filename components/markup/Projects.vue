@@ -14,8 +14,21 @@
             @click="() => gtmPushProjectOpened(project.link)"
             :href="project.link"
             target="_blank"
-            class="cursor-pointer underline"
-          >{{ $t(project.name) }}</a>
+            class="cursor-pointer underline inline-flex items-center justify-center"
+            rel="noopener noreferrer"
+          >
+            <img
+              v-if="project.image"
+              :src="require(`~/assets/img/projects/${project.image}`)"
+              alt=""
+              width="28"
+              height="28"
+              class="w-7 h-7 mr-2 object-contain flex-shrink-0"
+              loading="lazy"
+            />
+            <fa-icon v-else :icon="project.icon" class="w-7 h-7 mr-2 flex-shrink-0" aria-hidden="true" />
+            {{ $t(project.name) }}
+          </a>
         </h3>
         <p class="text-sm text-justify" style="text-indent: 20px;">{{ $t(project.description) }}</p>
         <tag-list :tags="project.tags" />
@@ -25,15 +38,15 @@
 </template>
 
 <script>
-import projects from '~/data/projects'
-import { gtmPushProjectOpened } from "~/utils/gtm";
+import projects from '~/data/projects';
+import { gtmPushProjectOpened } from '~/utils/gtm';
 
 export default {
   methods: {
     gtmPushProjectOpened
   },
   data: () => ({
-    projects,
-  }),
-}
+    projects
+  })
+};
 </script>

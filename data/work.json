@@ -56,5 +56,13 @@
     "link": "https://www.digitas.de",
     "image": "digitas.webp",
     "tags": ["Vue.js", "Typescript", "PHP"]
+  },
+  {
+    "time": "work.bauproplus.time",
+    "post": "work.bauproplus.post",
+    "firm": "work.bauproplus.firm",
+    "location": "work.bauproplus.location",
+    "description": "work.bauproplus.description",
+    "tags": ["Laravel", "Vue 3", "CI/CD", "AI"]
   }
 ]

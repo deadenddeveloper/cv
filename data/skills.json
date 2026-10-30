@@ -1,36 +1,82 @@
 [
   {
-    "name": "languages",
+    "name": "leadership",
     "skills": [
-      {"icon": ["fab", "php"], "text": "skills.php"},
-      {"icon": ["fab", "js"], "text": "skills.js"},
-      {"icon": ["fab", "html5"], "text": "skills.html"},
-      {"icon": "terminal", "text": "skills.delphi"},
-      {"icon": ["fab", "python"], "text": "skills.python"},
-      {"icon": ["fab", "rust"], "text": "skills.rust"}
+      {
+        "icon": "cubes",
+        "title": "skills.leadership.title",
+        "text": "skills.leadership.description"
+      }
     ]
   },
   {
-    "name": "technologies",
+    "name": "backend",
     "skills": [
-      {"icon": ["fab", "wordpress"], "text": "skills.cms"},
-      {"icon": "database", "text": "skills.db"},
-      {"icon": "vial", "text": "skills.testing"},
-      {"icon": "infinity", "text": "skills.deploy"},
-      {"icon": "server", "text": "skills.environment"},
-      {"icon": ["fab", "windows"], "text": "skills.win"},
-      {"icon": "mobile-alt", "text": "skills.winphone"}
+      {
+        "icon": ["fab", "php"],
+        "title": "skills.backend.title",
+        "text": "skills.backend.description"
+      }
     ]
   },
   {
-    "name": "coding",
+    "name": "frontend",
     "skills": [
-      {"icon": "cubes", "text": "skills.oop"},
-      {"icon": "code", "text": "skills.coding"},
-      {"icon": "code-branch", "text": "skills.vcs"},
-      {"icon": "atom", "text": "skills.algorithm"},
-      {"icon": "pastafarianism", "text": "skills.spaghetti"},
-      {"icon": "graduation-cap", "text": "skills.learn"}
+      {
+        "icon": ["fab", "js"],
+        "title": "skills.frontend.title",
+        "text": "skills.frontend.description"
+      }
+    ]
+  },
+  {
+    "name": "maintenance",
+    "skills": [
+      {
+        "icon": "code",
+        "title": "skills.maintenance.title",
+        "text": "skills.maintenance.description"
+      }
+    ]
+  },
+  {
+    "name": "databases",
+    "skills": [
+      {
+        "icon": "database",
+        "title": "skills.databases.title",
+        "text": "skills.databases.description"
+      }
+    ]
+  },
+  {
+    "name": "infrastructure",
+    "skills": [
+      {
+        "icon": "infinity",
+        "title": "skills.infrastructure.title",
+        "text": "skills.infrastructure.description"
+      }
+    ]
+  },
+  {
+    "name": "ai",
+    "skills": [
+      {
+        "icon": "robot",
+        "title": "skills.ai.title",
+        "text": "skills.ai.description"
+      }
+    ]
+  },
+  {
+    "name": "cms",
+    "skills": [
+      {
+        "icon": ["fab", "wordpress"],
+        "title": "skills.cms.title",
+        "text": "skills.cms.description"
+      }
     ]
   }
 ]

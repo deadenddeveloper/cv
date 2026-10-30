@@ -1,13 +1,15 @@
 export default {
 	meta: {
 		index: {
-			title: 'Roman Meyer - Dead End Web Entwickler',
-			description: 'full stack web developer web-dev php laravel javascript nuxt vue'
+			title: 'Roman Meyer — Tech Lead / Web-Architekt',
+			description:
+				'Tech Lead und Web-Architekt. Full-Stack-Entwicklung seit 2010: PHP, Laravel, JavaScript, TypeScript, Vue und React.'
 		}
 	},
 
 	name: 'Roman Meyer',
-	post: 'Dead End Web Entwickler',
+	post: 'Tech Lead / Web-Architekt',
+	availability: 'Offen für Angebote als Tech Lead oder Web-Architekt',
 	full_name: 'Roman Meyer',
 	address: 'Buxtehude, Niedersachsen, Deutschland',
 	date_of_birth: '9. Februar 1991',
@@ -24,6 +26,7 @@ export default {
 	},
 
 	sections: {
+		hobbies: 'Hobbys',
 		bio: 'Über mich',
 		skills: 'Kompetenzen',
 		languages: 'Sprachen',
@@ -35,7 +38,7 @@ export default {
 
 	bio: {
 		about:
-      '<p>Moin. Mein Name ist Roman. Ich bin seit 2010 beruflich in der Webentwicklung tätig.</p><p>Meine erste Million habe ich mit 17 verdient, noch bevor ich meine aktuelle Karriere begonnen habe. Allerdings war diese Million nicht in Euro oder Dollar, sondern in belarussischen Rubeln, sodass es nicht schwer war, sie zu verdienen. Ich habe einfach für meine Kommilitonen am College Hausarbeiten über Delphi und C/C++ geschrieben. Während meiner ersten Ausbildung habe ich die Fachrichtung „Techniker-Programmierer“ erworben.</p><p>Nach dem College bekam ich einen Job, bei dem ich nicht hart arbeiten musste und in aller Ruhe in die Welt des Internets eintauchen konnte. Gleichzeitig absolvierte ich ein Fernstudium in der Uni.</p><p>Drei Jahre lang in einem unbequemen Zimmer zu sitzen und Serien anzuschauen, ging mir auf die Nerven und ich kündigte. Mein Nebeneinkommen war doppelt so hoch wie mein Gehalt, also konnte ich es mir leisten, freiberuflich zu arbeiten.</p><p>Ich begann 2010 mit reinem PHP und sammelte viel Erfahrung mit Joomla, Wordpress, MODx, Prestashop, Opencart und sogar 1C-Bitrix und wechselte schließlich zu Frameworks. In letzter Zeit habe ich aktiv in Laravel geschrieben, Nuxt.js und Tailwind entdeckt, aber im Frontend habe ich es geschafft, mit allen gängigen Dingen zu arbeiten.</p>',
+			'<p>Hallo, ich bin Roman. Seit 2010 arbeite ich beruflich in der Webentwicklung. Mein Weg führte mich von CMS-Websites und freiberuflicher Arbeit zur Entwicklung und Betreuung großer Webprojekte bei deutschen Unternehmen und einer internationalen Agentur. Mein Hintergrund ist Full Stack: PHP, JavaScript und TypeScript, mit viel Erfahrung in Laravel und verschiedenen Frontend-Frameworks.</p><p>Meine erste Million habe ich schon im College verdient, indem ich für Kommilitonen Semesterarbeiten in Delphi und C/C++ geschrieben habe. Es waren allerdings belarussische Rubel. Seitdem haben sich die Technologien und die Größe der Aufgaben deutlich verändert. Geblieben ist die Freude daran, zu verstehen, wie etwas funktioniert und wie es sich verbessern lässt.</p><p>In den letzten Jahren habe ich meinen Schwerpunkt nach und nach in Richtung technischer Führung verlagert: Mentoring, Arbeitsorganisation und Projektmanagement nehmen mehr Raum ein. Ich betrachte Projekte gerne als Ganzes: die Aufgabe verstehen, passende Lösungen auswählen und dem Team helfen, sie umzusetzen. Jetzt suche ich eine Position als Tech Lead oder Web-Architekt, in der ich meine Erfahrung einbringen und mehr Verantwortung für die technische Ausrichtung eines Projekts übernehmen kann.</p><p>Auch KI gehört inzwischen zu meiner Arbeit. Ich nutze sie dort, wo sie mich bei einer Aufgabe weiterbringt, prüfe aber ihre Vorschläge und mache mich mit dem Code vertraut, der ins Projekt einfließt. Ich möchte verstehen, warum eine Lösung funktioniert, wie sie gewartet werden kann und welche Probleme sie später verursachen könnte.</p>',
 		full_name: 'Vollständiger Name',
 		location: 'Ort',
 		date_of_birth: 'Geburtsdatum',
@@ -45,33 +48,46 @@ export default {
 	},
 
 	skills: {
-		php:
-			'PHP (plain PHP, Phalcon, Laravel, ein bisschen Sylex und Lumen). Jetzt benutze ich hauptsächlich Laravel.',
-		js:
-			'JavaScript (plain JS, Node/Express, jQuery‚ Vue.js/Vuex/Nuxt.js, Alpine, Svelte/SvelteKit, React/Remix/Next.js, Qwik, Electron, Angular), TypeScript.',
-		html: 'HTML, CSS (SASS, SCSS, Stylus), Markup und Styling (Bootstrap, Tailwind).',
-		delphi: 'Delphi 7, Pascal.',
-		python: 'Python (Basislevel).',
-    rust: 'Oberflächliche Kenntnisse über Rust, Verständnis seiner Prinzipien und seines Anwendungsbereichs.',
-
-		cms:
-			'Viele Erfahrungen mit CMS Joomla, MODX, Drupal, Opencart, 1С-Bitrix, Prestashop, Wordpress, BigCommerce, FirstSpirit, AEM, TYPO3 und vielen selbstgemachten Systemen.',
-		db: 'Datenbanken (MySQL‚ Postgres, Informix‚ dBase, Mongo)‚ SQL Wissen.',
-		testing: 'Automatizierte Testing (Jest, Mocha, Cypress, Playwright).',
-		deploy: 'CI/CD (Github, Gitlab, Bitbucket, AWS).',
-		environment:
-			'Installieren und Aufrechterhalten von Web-Dev Server Umgebungen (Homestead, PHP, MySQL, Apache, Nginx, Docker) auf Windows und Unix.',
-		win: 'Windows 8 Apps (HTML+JS).',
-		winphone: 'Windows Phone 8 mobile Apps (HTML+JS, XAML+C#).',
-
-		oop: 'Verständnis von OOP, MVC, design patterns.',
-		coding:
-			'Die Fähigkeit die Codes anderer Programmierer zu verstehen. Ich schreibe immer selbstdokumentierte Codes (mit Kommentar, wenn nötig).',
-		vcs: 'Die Fähigkeit mit VCS zu arbeiten (Git).',
-		algorithm:
-			'Verständnis von Algorithmusisierung, Datenstrukturen und das Abschätzen der Komplexität von Algorithmen.',
-		spaghetti: 'Die Fähigkeit jeden Spaghetti-Code zu verstehen und zu refactor.',
-		learn: 'Schneller Lerner.'
+		leadership: {
+			title: 'Technische Führung und Architektur',
+			description:
+				'Auswahl des Stacks, Architekturentwurf und Entwicklungsplanung. Ein kleines Team aus Entwicklern und einem Designer geleitet, Code-Reviews durchgeführt und Junior-Entwickler betreut.'
+		},
+		backend: {
+			title: 'Backend',
+			description:
+				'Mein Hauptstack ist PHP und Laravel. Erfahrung mit weiteren PHP-Frameworks sowie Node.js und Express. Früher habe ich Python häufig für praktische Aufgaben eingesetzt; dank der Entwicklung von KI-Werkzeugen besteht dieser Bedarf bei meinen aktuellen Aufgaben nicht mehr.'
+		},
+		frontend: {
+			title: 'Frontend',
+			description:
+				'JavaScript, TypeScript, Vue.js / Nuxt und React / Next.js. Mit Svelte und SvelteKit habe ich besonders gerne gearbeitet, allerdings blieb es aufgrund der Marktnachfrage bei zwei privaten Projekten. Erfahrung mit Qwik, Angular und Electron. HTML, CSS, Präprozessoren und Tailwind.'
+		},
+		maintenance: {
+			title: 'Arbeit mit bestehendem Code',
+			description:
+				'Ich arbeite mich in fremde Projekte ein, finde Problemursachen und überarbeite Code. Dabei helfen mir OOP, Entwurfsmuster sowie Kenntnisse von Algorithmen und Datenstrukturen. Ich versuche, Code zu hinterlassen, den auch der nächste Entwickler versteht.'
+		},
+		databases: {
+			title: 'Datenbanken',
+			description:
+				'Ich arbeite mit relationalen Datenbanken: MySQL, PostgreSQL und SQLite. SQL-Kenntnisse sowie Erfahrung mit MongoDB.'
+		},
+		infrastructure: {
+			title: 'Tests und Infrastruktur',
+			description:
+				'Jest, Mocha, Cypress und Playwright. Git, CI/CD, Docker sowie Einrichtung von Umgebungen für Webentwicklung und Anwendungsdeployment.'
+		},
+		ai: {
+			title: 'KI in der Entwicklung',
+			description:
+				'Begonnen habe ich mit GitHub Copilot und den KI-Werkzeugen von JetBrains. Heute bevorzuge ich GPT und Codex, weil ich mit der Qualität ihrer Arbeit zufrieden bin. Ich gebe Kontext und Rahmenbedingungen vor, prüfe Lösungsvorschläge und verstehe den Code, bevor ich ihn im Projekt einsetze.'
+		},
+		cms: {
+			title: 'CMS',
+			description:
+				'Erfahrung in der Entwicklung und Betreuung von Projekten mit WordPress, Joomla, MODX, Drupal, OpenCart, PrestaShop, 1C-Bitrix, BigCommerce, FirstSpirit, AEM und TYPO3.'
+		}
 	},
 
 	languages: {
@@ -100,7 +116,7 @@ export default {
 		de: {
 			name: 'Deutsch',
 			description:
-				'Ich lerne seit 2019 Deutsch, größtenteils alleine. Ich nutze sie aktuell täglich, aber "Das Leben ist zu kurz, um Deutsch zu lernen"',
+				'Ich lerne seit 2019 Deutsch, größtenteils alleine. Ich nutze sie aktuell täglich, aber "Das Leben ist zu kurz, um Deutsch zu lernen"'
 		},
 		pl: {
 			name: 'Polnisch',
@@ -109,11 +125,20 @@ export default {
 		},
 		es: {
 			name: 'Spanisch',
-			description: 'Neue Herausforderung für mich. Je mehr ich lerne, desto mehr verstehe ich, dass es nicht so einfach ist, wie alle sagen.'
+			description:
+				'Neue Herausforderung für mich. Je mehr ich lerne, desto mehr verstehe ich, dass es nicht so einfach ist, wie alle sagen.'
 		}
 	},
 
 	work: {
+		bauproplus: {
+			time: 'Januar 2026 — November 2026',
+			post: 'Tech Lead',
+			firm: 'BauProPlus',
+			location: 'Nastätten, Deutschland',
+			description:
+				'Entwicklung einer Plattform zur Automatisierung von Abläufen in einem Bauunternehmen: Zeiterfassung, Personalverwaltung und Projektplanung. Den Stack als Monorepo mit Laravel-API und Vue-3-Frontend ausgewählt. Grundarchitektur und Datenmodelle entworfen sowie CI und Deployment eingerichtet. Anweisungen und Regeln für die KI-gestützte Entwicklung vorbereitet, damit Änderungen zur Projektarchitektur passen. Das Unternehmen stellte die Entwicklung später ein.'
+		},
 		svitanak: {
 			time: 'August 2010 - Oktober 2013',
 			post: 'Softwareentwickler',
@@ -154,12 +179,13 @@ export default {
 			description:
 				'Ich wurde Teil des Webentwicklungsteams. Zuerst war ich an internen Projekten des Unternehmens beteiligt, und dann habe ich eine interessante Sache mit React und Electron gemacht. Außerdem war ich an der Überarbeitung einer Low-Level-Anwendung für Siemens beteiligt.'
 		},
-    digitas: {
-			time: 'September 2022 - bis jetzt',
+		digitas: {
+			time: 'September 2022 — Dezember 2025',
 			post: 'Full Stack Web-Entwickler',
 			firm: 'Digitas GmbH',
 			location: 'Köln, Deutschland',
-			description: 'Dies ist eine riesige internationale Agentur, die große Webprojekte durchführt. Ich war an der Entwicklung und Betreuung von Grohe, dem Berliner Flughafen, ITZ Bund und Bindella beteiligt, wo es einen ganzen Zoo unterschiedlicher Technologien gibt.'
+			description:
+				'Dies ist eine riesige internationale Agentur, die große Webprojekte durchführt. Ich war an der Entwicklung und Betreuung von Grohe, dem Berliner Flughafen, ITZ Bund und Bindella beteiligt, wo es einen ganzen Zoo unterschiedlicher Technologien gibt.'
 		}
 	},
 
@@ -194,26 +220,31 @@ export default {
 	},
 
 	projects: {
+		moneydude: {
+			name: 'MoneyDude',
+			description:
+				'Ein Dienst zur Verwaltung gemeinsamer Ausgaben auf Reisen und im Alltag. Unterstützt verschiedene Arten der Kostenaufteilung, mehrere Währungen und zeigt, wer wem wie viel schuldet. Ich nutze ihn regelmäßig mit Freunden und entwickle ihn auch anhand unserer eigenen Bedürfnisse weiter.'
+		},
+		metalhead: {
+			name: 'Metalhead',
+			description:
+				'Ich entwickle ein Portal für Fans harter Musik und Musiker, das die Informationssuche und den Austausch erleichtern soll. Geplant sind eine Wissensdatenbank, Veranstaltungen und Werkzeuge zur Organisation gemeinsamer Fahrten zu Konzerten und Festivals. Das Projekt ist in Entwicklung.'
+		},
 		randby: {
 			name: 'Rand.by',
 			description:
-				'Einfacher Service zur Generierung von Zufallswerten. Kürzlich habe ich endlich ein bisschen Zeit gefunden, das Projekt vom reinen JS in Nuxt umzuschreiben und auch eine offene API mit Express zu machen. Ich selbst benutze regelmäßig den Passwortgenerator.'
-		},
-		blurhash: {
-			name: 'BlurHash demo',
-			description:
-				'Für eine Präsentation auf der Arbeit musste ich zeigen, was blurhash ist, wie man es benutzt und welche Alternativen es gibt. Dann habe ich entschieden, ein Demoprojekt zu erstellen und damit die neueste Version von Nuxt zu verwenden. Ausser der Demo ist da auch ein Konverter.'
-		},
-		debtcalc: {
-			name: 'Debt Calculator',
-			description:
-				'Eine Webapp zum Berechnen von Schulden in Gruppen. Auf Reisen gibt es oft Verwirrung darüber, wer wem wie viel Geld schuldet. Um nicht alles auf einem Blatt Papier oder in Excel zu berechnen, habe ich den Rechner in React implementiert.'
+				'Ein Dienst zur Erzeugung von Zufallszahlen, Passwörtern, Listen und anderen Werten. Von reinem JavaScript auf Nuxt umgeschrieben und um eine öffentliche API auf Express-Basis ergänzt. Den Passwortgenerator nutze ich selbst regelmäßig.'
 		},
 		travelcalc: {
 			name: 'Reiserechner',
 			description:
-				'Noch eine Sache, die auf Reisen helfen könnte. Damit kann man Preise in Fremdwährungen schnell in gewohnte Währung umrechnen, und auch gucken, wie viele Stunden man arbeiten muss, um einen Einkauf zu tätigen. Implementiert in Qwik mit Integration mehrerer React-Komponenten.'
+				'Ein kleines privates Projekt, um Qwik und die Integration von React-Komponenten auszuprobieren. Rechnet Preise in eine vertraute Währung um und zeigt, wie viel Arbeitszeit ein Kauf kostet.'
 		}
+	},
+
+	hobbies: {
+		description:
+			'Abseits der Arbeit: Futsal und Fußball, harte Musik, Computerspiele, Bücher und Reisen.'
 	},
 
 	validation: {

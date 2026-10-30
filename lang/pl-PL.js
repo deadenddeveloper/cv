@@ -1,13 +1,15 @@
 export default {
   meta: {
     index: {
-      title: 'Roman Meyer - Dead end developer',
-      description: 'full stack web developer web-dev php laravel javascript nuxt vue'
+      title: 'Roman Meyer — Tech Lead / Architekt aplikacji webowych',
+      description:
+        'Tech Lead i architekt aplikacji webowych. Full stack od 2010 roku: PHP, Laravel, JavaScript, TypeScript, Vue i React.'
     }
   },
 
   name: 'Roman Meyer',
-  post: 'Dead end web developer',
+  post: 'Tech Lead / Architekt aplikacji webowych',
+  availability: 'Otwarty na oferty na stanowisko Tech Leada lub architekta aplikacji webowych',
   full_name: 'Roman Meyer',
   address: 'Buxtehude, Dolna Saksonia, Niemcy',
   date_of_birth: '9 lutego 1991',
@@ -24,6 +26,7 @@ export default {
   },
 
   sections: {
+    hobbies: 'Hobby',
     bio: 'O mnie',
     skills: 'Umiejętności',
     languages: 'Języki',
@@ -34,7 +37,8 @@ export default {
   },
 
   bio: {
-    about: '<p>Cześć. Nazywam się Roman. Profesjonalnie zajmuję się tworzeniem stron internetowych od 2010 roku.</p><p>Swój pierwszy milion zarobiłem w wieku 17 lat, jeszcze zanim zacząłem zajmować się tym, czym teraz. Prawdą jest, że ten milion nie był w euro ani w dolarach, lecz w białoruskich rublach, więc nie było to trudne do osiągnięcia. Po prostu wykonywałem projekty w Delphi i C/C++ dla moich kolegów z uczelni. To było w okresie zdobywania mojego pierwszego wykształcenia, kiedy uzyskałem specjalizację „technik-programista”.</p><p>Po ukończeniu college\'u dostałem pracę, w której nie musiałem się zbytnio wysilać, więc spokojnie zacząłem zgłębiać świat web developmentu. Równocześnie zdobywałem wyższe wykształcenie.</p><p>Trzy lata spędzone w niewygodnym biurze i oglądanie seriali stały się dla mnie nudne, więc odszedłem. Moje dodatkowe dochody były dwukrotnie wyższe niż pensja, więc mogłem sobie pozwolić na przejście na freelancing.</p><p>Zaczynając w 2010 roku od czystego PHP, zdobyłem dużo doświadczenia z Joomla, Wordpress, MODx, Prestashop, Opencart, a nawet 1C-Bitrix, po czym przeszedłem na frameworki. Ostatnio aktywnie piszę w Laravel, odkryłem Nuxt.js i Tailwind, ale w frontendzie miałem do czynienia ze wszystkimi popularnymi technologiami.</p>',
+    about:
+      '<p>Cześć, jestem Roman. Zawodowo zajmuję się tworzeniem aplikacji webowych od 2010 roku. Przeszedłem drogę od stron na CMS-ach i freelancingu do tworzenia i utrzymania dużych projektów w niemieckich firmach i międzynarodowej agencji. Moja podstawa to full stack: PHP, JavaScript i TypeScript, z dużym doświadczeniem w Laravelu i różnych frameworkach frontendowych.</p><p>Pierwszy milion zarobiłem jeszcze w szkole, pisząc prace zaliczeniowe w Delphi i C/C++ dla kolegów z grupy. Były to jednak ruble białoruskie. Od tego czasu technologie i skala zadań znacznie się zmieniły, ale nadal lubię rozumieć, jak coś działa i jak można to ulepszyć.</p><p>W ostatnich latach stopniowo przesuwam się w stronę przywództwa technicznego: więcej czasu poświęcam mentoringowi, organizacji pracy i zarządzaniu projektami. Lubię patrzeć na projekt jako całość: zrozumieć problem, dobrać rozwiązania i pomóc zespołowi je wdrożyć. Teraz szukam stanowiska Tech Leada lub architekta aplikacji webowych, na którym wykorzystam swoje doświadczenie i wezmę większą odpowiedzialność za kierunek techniczny projektu.</p><p>AI również stało się częścią mojej pracy. Korzystam z niego tam, gdzie pomaga posunąć zadanie do przodu, ale sprawdzam proponowane rozwiązania i poznaję kod, który trafia do projektu. Chcę rozumieć, dlaczego rozwiązanie działa, jak je utrzymywać i jakie problemy może sprawić później.</p>',
     full_name: 'Pełne imię i nazwisko',
     location: 'Lokalizacja',
     date_of_birth: 'Data urodzenia',
@@ -44,27 +48,46 @@ export default {
   },
 
   skills: {
-    php: 'PHP (plain PHP, Phalcon, Laravel, trochę Silex i Lumen).',
-    js: 'JavaScript (plain JS, Node/Express, jQuery, Vue.js/Vuex/Nuxt.js, Alpine, Svelte/SvelteKit, React/Remix/Next.js, Qwik, Electron, Angular), TypeScript.',
-    html: 'HTML, CSS (SASS, SCSS, Stylus), stylizacja (Bootstrap, Tailwind).',
-    delphi: 'Delphi 7, Pascal.',
-    python: 'Podstawowa znajomość Pythona do pisania prostych skryptów.',
-    rust: 'Powierzchowna znajomość Rust, rozumienie jego zasad i obszaru zastosowania.',
-
-    cms: 'Doświadczenie z CMS Joomla, MODX, Drupal, Opencart, 1С-Bitrix, Prestashop, Wordpress, BigCommerce, FirstSpirit, AEM, TYPO3 oraz wieloma systemami autorskimi.',
-    db: 'Bazy danych (MySQL, Postgres, Informix, dBase, Mongo), znajomość SQL.',
-    testing: 'Testowanie automatyczne (Jest, Mocha, Cypress, Playwright).',
-    deploy: 'CI/CD (Github, Gitlab, Bitbucket, AWS).',
-    environment: 'Instalacja i utrzymanie środowiska web-dev (Homestead, PHP, MySQL, Apache, Nginx, Docker) na Windows i Unix.',
-    win: 'Aplikacje na Windows 8 (HTML+JS).',
-    winphone: 'Aplikacje mobilne na Windows Phone 8 (HTML+JS, XAML+C#).',
-
-    oop: 'Zrozumienie OOP, MVC, wzorców projektowych.',
-    coding: 'Umiejętność analizy kodu obcego, nawyk pisania samo-dokumentującego się kodu i dodawania komentarzy tylko wtedy, gdy jest to konieczne.',
-    vcs: 'Obsługa systemów kontroli wersji.',
-    algorithm: 'Zrozumienie algorytmizacji, struktur danych i oceny złożoności algorytmów.',
-    spaghetti: 'Umiejętność analizy i refaktoryzacji dowolnego spaghetti-kodu.',
-    learn: 'Szybkie przyswajanie wiedzy.'
+    leadership: {
+      title: 'Przywództwo techniczne i architektura',
+      description:
+        'Dobór stosu technologicznego, projektowanie architektury i planowanie prac. Kierowałem niewielkim zespołem programistów i projektanta, prowadziłem przeglądy kodu i mentoring juniorów.'
+    },
+    backend: {
+      title: 'Backend',
+      description:
+        'Główny stos to PHP i Laravel. Mam doświadczenie z innymi frameworkami PHP oraz Node.js i Express. Wcześniej często wykorzystywałem Pythona do zadań praktycznych, ale rozwój narzędzi AI sprawił, że w mojej obecnej pracy nie mam już takiej potrzeby.'
+    },
+    frontend: {
+      title: 'Frontend',
+      description:
+        'JavaScript, TypeScript, Vue.js / Nuxt i React / Next.js. Szczególnie dobrze pracowało mi się ze Svelte i SvelteKit, choć ze względu na realia rynku skończyło się na dwóch projektach hobbystycznych. Mam doświadczenie z Qwik, Angular i Electron. HTML, CSS, preprocesory i Tailwind.'
+    },
+    maintenance: {
+      title: 'Praca z istniejącym kodem',
+      description:
+        'Odnajduję się w cudzych projektach, szukam przyczyn problemów i refaktoryzuję kod. Korzystam z OOP, wzorców projektowych oraz wiedzy o algorytmach i strukturach danych. Staram się zostawiać kod, który kolejny programista będzie w stanie zrozumieć.'
+    },
+    databases: {
+      title: 'Bazy danych',
+      description:
+        'Pracuję z relacyjnymi bazami danych: MySQL, PostgreSQL i SQLite. Znam SQL, mam też doświadczenie z MongoDB.'
+    },
+    infrastructure: {
+      title: 'Testowanie i infrastruktura',
+      description:
+        'Jest, Mocha, Cypress i Playwright. Git, CI/CD, Docker, konfiguracja środowisk do tworzenia i wdrażania aplikacji webowych.'
+    },
+    ai: {
+      title: 'AI w programowaniu',
+      description:
+        'Zaczynałem od GitHub Copilot i narzędzi AI od JetBrains. Obecnie wolę GPT i Codex — odpowiada mi jakość ich pracy. Określam kontekst i ograniczenia, sprawdzam proponowane rozwiązania i poznaję kod, zanim użyję go w projekcie.'
+    },
+    cms: {
+      title: 'CMS',
+      description:
+        'Doświadczenie w tworzeniu i utrzymaniu projektów na WordPress, Joomla, MODX, Drupal, OpenCart, PrestaShop, 1C-Bitrix, BigCommerce, FirstSpirit, AEM i TYPO3.'
+    }
   },
 
   languages: {
@@ -78,19 +101,23 @@ export default {
     },
     by: {
       name: 'Białoruski',
-      description: 'Również ojczysty, ale używany głównie w szkole. Mówienie jest teraz trudniejsze.'
+      description:
+        'Również ojczysty, ale używany głównie w szkole. Mówienie jest teraz trudniejsze.'
     },
     ua: {
       name: 'Ukraiński',
-      description: 'Ze względu na podobieństwo do rosyjskiego i białoruskiego dobrze rozumiem, ale trudniej mi pisać i mówić.'
+      description:
+        'Ze względu na podobieństwo do rosyjskiego i białoruskiego dobrze rozumiem, ale trudniej mi pisać i mówić.'
     },
     en: {
       name: 'Angielski',
-      description: 'Uczę się angielskiego od piątego roku życia. Nie mam większych problemów, ale mylę czasy.'
+      description:
+        'Uczę się angielskiego od piątego roku życia. Nie mam większych problemów, ale mylę czasy.'
     },
     de: {
       name: 'Niemiecki',
-      description: 'Uczę się niemieckiego od 2019 roku, głównie samodzielnie. Praktykuję codziennie. Są trudności, ale „Das Leben ist zu kurz, um Deutsch zu lernen” nie jest bezsensowne.'
+      description:
+        'Uczę się niemieckiego od 2019 roku, głównie samodzielnie. Praktykuję codziennie. Są trudności, ale „Das Leben ist zu kurz, um Deutsch zu lernen” nie jest bezsensowne.'
     },
     pl: {
       name: 'Polski',
@@ -98,112 +125,126 @@ export default {
     },
     es: {
       name: 'Hiszpański',
-      description: 'Nowe wyzwanie. Im więcej się uczę, tym bardziej rozumiem, że to nie jest takie łatwe.'
+      description:
+        'Nowe wyzwanie. Im więcej się uczę, tym bardziej rozumiem, że to nie jest takie łatwe.'
     }
   },
 
   work: {
-    svitanak: {
-      time: "Sierpień 2010 - Październik 2013",
-      post: "Inżynier oprogramowania",
-      firm: "OJSC Svitanak",
-      location: "Żodzino, Białoruś",
+    bauproplus: {
+      time: 'Styczeń 2026 — listopad 2026',
+      post: 'Tech Lead',
+      firm: 'BauProPlus',
+      location: 'Nastätten, Niemcy',
       description:
-        "Rozpocząłem pracę zaraz po ukończeniu college’u. Praca polegała na automatyzacji różnych procesów w ramach dużego przemysłu tekstylnego. Głównie pomagałem działom marketingu, finansów i zakwaterowania. Tworzyłem dla nich oprogramowanie aplikacyjne w Delphi 7, co pozwalało zaoszczędzić ludziom dużo czasu. Na początku pracowałem z entuzjazmem, ale szybko stało się jasne, że przedsiębiorstwo państwowe nie jest zainteresowane inteligentnymi specjalistami. Dlatego odszedłem."
+        'Tworzyłem platformę do automatyzacji pracy firmy budowlanej: ewidencji czasu pracy, zarządzania personelem i planowania projektów. Wybrałem monorepo z API w Laravelu i frontendem w Vue 3. Zaprojektowałem podstawową architekturę i modele danych, skonfigurowałem CI i wdrażanie. Przygotowałem instrukcje i zasady pracy z AI, aby zmiany pasowały do architektury projektu. Firma później zakończyła rozwój produktu.'
+    },
+    svitanak: {
+      time: 'Sierpień 2010 - Październik 2013',
+      post: 'Inżynier oprogramowania',
+      firm: 'OJSC Svitanak',
+      location: 'Żodzino, Białoruś',
+      description:
+        'Rozpocząłem pracę zaraz po ukończeniu college’u. Praca polegała na automatyzacji różnych procesów w ramach dużego przemysłu tekstylnego. Głównie pomagałem działom marketingu, finansów i zakwaterowania. Tworzyłem dla nich oprogramowanie aplikacyjne w Delphi 7, co pozwalało zaoszczędzić ludziom dużo czasu. Na początku pracowałem z entuzjazmem, ale szybko stało się jasne, że przedsiębiorstwo państwowe nie jest zainteresowane inteligentnymi specjalistami. Dlatego odszedłem.'
     },
     itgarant: {
-      time: "Listopad 2013 - Grudzień 2015",
-      post: "Full stack web-developer",
-      firm: "ITGarant",
-      location: "Mińsk, Białoruś",
+      time: 'Listopad 2013 - Grudzień 2015',
+      post: 'Full stack web-developer',
+      firm: 'ITGarant',
+      location: 'Mińsk, Białoruś',
       description:
-        "Tworzyłem strony internetowe „pod klucz” na Joomla i pisałem niestandardowe komponenty dla tego CMS-a. Jeden z projektów zdobył nagrodę „Russian Developers Cup 2014” od grupy Mail.ru. Poza tym spotkałem się z projektami na Drupal oraz wieloma samodzielnie tworzonymi stronami, które wymagały poprawek i refaktoryzacji. Stworzyłem także prostą aplikację dla Windows 8."
+        'Tworzyłem strony internetowe „pod klucz” na Joomla i pisałem niestandardowe komponenty dla tego CMS-a. Jeden z projektów zdobył nagrodę „Russian Developers Cup 2014” od grupy Mail.ru. Poza tym spotkałem się z projektami na Drupal oraz wieloma samodzielnie tworzonymi stronami, które wymagały poprawek i refaktoryzacji. Stworzyłem także prostą aplikację dla Windows 8.'
     },
     freelance: {
-      time: "Styczeń 2016 - Czerwiec 2018",
-      post: "Full stack web-developer",
-      firm: "Freelance",
-      location: "",
+      time: 'Styczeń 2016 - Czerwiec 2018',
+      post: 'Full stack web-developer',
+      firm: 'Freelance',
+      location: '',
       description:
-        "To był bardzo beztroski okres w moim życiu. Współpracowałem z kilkoma organizacjami w krajach WNP i zdobyłem mnóstwo doświadczenia. Najczęściej zajmowałem się zleceniami dotyczącymi 1C-Bitrix. Wspólnie z dużą firmą zajmowałem się parsowaniem specyficznych danych."
+        'To był bardzo beztroski okres w moim życiu. Współpracowałem z kilkoma organizacjami w krajach WNP i zdobyłem mnóstwo doświadczenia. Najczęściej zajmowałem się zleceniami dotyczącymi 1C-Bitrix. Wspólnie z dużą firmą zajmowałem się parsowaniem specyficznych danych.'
     },
     recoma: {
-      time: "Lipiec 2018 - Sierpień 2021",
-      post: "Full stack web-developer",
-      firm: "RECO.MA GmbH",
-      location: "Beselich, Niemcy",
+      time: 'Lipiec 2018 - Sierpień 2021',
+      post: 'Full stack web-developer',
+      firm: 'RECO.MA GmbH',
+      location: 'Beselich, Niemcy',
       description:
-        "Otrzymałem ofertę pracy z relokacją do Niemiec i nie wahałem się. Zrealizowałem kilka dużych i ambitnych projektów w Laravel. Utrzymywałem również kilka stron na Wordpress oraz tworzyłem niestandardowe interfejsy użytkownika."
+        'Otrzymałem ofertę pracy z relokacją do Niemiec i nie wahałem się. Zrealizowałem kilka dużych i ambitnych projektów w Laravel. Utrzymywałem również kilka stron na Wordpress oraz tworzyłem niestandardowe interfejsy użytkownika.'
     },
     vke: {
-      time: "Wrzesień 2021 - Sierpień 2022",
-      post: "Full stack web-developer",
-      firm: "von Kéler Engineering GmbH",
-      location: "Brunszwik, Niemcy",
+      time: 'Wrzesień 2021 - Sierpień 2022',
+      post: 'Full stack web-developer',
+      firm: 'von Kéler Engineering GmbH',
+      location: 'Brunszwik, Niemcy',
       description:
-        "Stałem się częścią zespołu web developmentu. Na początku zajmowałem się wewnętrznymi projektami firmy, a później stworzyłem interesującą aplikację na React wewnątrz Electron. Dodatkowo brałem udział w przeróbce aplikacji niskopoziomowej dla Siemensa."
+        'Stałem się częścią zespołu web developmentu. Na początku zajmowałem się wewnętrznymi projektami firmy, a później stworzyłem interesującą aplikację na React wewnątrz Electron. Dodatkowo brałem udział w przeróbce aplikacji niskopoziomowej dla Siemensa.'
     },
     digitas: {
-      time: "Wrzesień 2022 - obecnie",
-      post: "Full stack web-developer",
-      firm: "Digitas GmbH",
-      location: "Kolonia, Niemcy",
+      time: 'Wrzesień 2022 — grudzień 2025',
+      post: 'Full stack web-developer',
+      firm: 'Digitas GmbH',
+      location: 'Kolonia, Niemcy',
       description:
-        "To ogromna międzynarodowa agencja zajmująca się dużymi projektami internetowymi. Brałem udział w rozwoju i utrzymaniu stron Grohe, Berlin Airport, ITZ Bund, Bindella, gdzie wykorzystywano wiele różnych technologii."
+        'To ogromna międzynarodowa agencja zajmująca się dużymi projektami internetowymi. Brałem udział w rozwoju i utrzymaniu stron Grohe, Berlin Airport, ITZ Bund, Bindella, gdzie wykorzystywano wiele różnych technologii.'
     }
   },
 
   education: {
     bscli: {
-      time: "2006 - 2010",
-      speciality: "Oprogramowanie technologii informacyjnych",
-      post: "Technik-programista (średnie wykształcenie specjalistyczne)",
-      name: "Baranowicki Państwowy College Przemysłu Lekkiego im. V.E. Czernyszewa",
-      location: "Baranowicze, Białoruś"
+      time: '2006 - 2010',
+      speciality: 'Oprogramowanie technologii informacyjnych',
+      post: 'Technik-programista (średnie wykształcenie specjalistyczne)',
+      name: 'Baranowicki Państwowy College Przemysłu Lekkiego im. V.E. Czernyszewa',
+      location: 'Baranowicze, Białoruś'
     },
     grsu: {
-      time: "2010 - 2015",
-      speciality: "Oprogramowanie technologii informacyjnych",
-      post: "Inżynier oprogramowania (wyższe wykształcenie)",
-      name: "Grodzieński Państwowy Uniwersytet im. Janki Kupały",
-      location: "Grodno, Białoruś"
+      time: '2010 - 2015',
+      speciality: 'Oprogramowanie technologii informacyjnych',
+      post: 'Inżynier oprogramowania (wyższe wykształcenie)',
+      name: 'Grodzieński Państwowy Uniwersytet im. Janki Kupały',
+      location: 'Grodno, Białoruś'
     }
   },
 
   contacts: {
     form: {
-      name: "Twoje imię",
-      email: "Twój email",
-      comment: "Treść wiadomości",
-      required: "Pole jest wymagane",
-      send: "Wyślij wiadomość",
-      sending: "Wysyłanie...",
-      success: "Twoja wiadomość została pomyślnie wysłana",
-      error: "Coś poszło nie tak"
+      name: 'Twoje imię',
+      email: 'Twój email',
+      comment: 'Treść wiadomości',
+      required: 'Pole jest wymagane',
+      send: 'Wyślij wiadomość',
+      sending: 'Wysyłanie...',
+      success: 'Twoja wiadomość została pomyślnie wysłana',
+      error: 'Coś poszło nie tak'
     }
   },
 
   projects: {
+    moneydude: {
+      name: 'MoneyDude',
+      description:
+        'Serwis do rozliczania wspólnych wydatków w podróży i na co dzień. Pozwala dzielić koszty na różne sposoby, korzystać z wielu walut i sprawdzić, kto komu ile jest winien. Regularnie używam go ze znajomymi i rozwijam również pod nasze rzeczywiste potrzeby.'
+    },
+    metalhead: {
+      name: 'Metalhead',
+      description:
+        'Rozwijam portal dla fanów ciężkiej muzyki i muzyków, który ma ułatwić wyszukiwanie informacji i kontakt z innymi. Planuję bazę wiedzy, wydarzenia i narzędzia do organizacji wspólnych wyjazdów na imprezy muzyczne. Projekt jest w trakcie realizacji.'
+    },
     randby: {
-      name: "Rand.by",
+      name: 'Rand.by',
       description:
-        "Prosty serwis do generowania losowych wartości. Niedawno w końcu znalazłem trochę czasu, aby przepisać projekt z czystego JavaScriptu na Nuxt, a także stworzyłem otwarte API w Express. Sam regularnie korzystam z generatora haseł."
-    },
-    blurhash: {
-      name: "BlurHash demo",
-      description:
-        "Na prezentację w pracy musiałem pokazać, czym jest blurhash, jak go używać i jakie ma alternatywy. Dlatego postanowiłem stworzyć projekt demonstracyjny i jednocześnie wykorzystać najnowszą wersję Nuxt. Wewnątrz demo znajduje się również konwerter."
-    },
-    debtcalc: {
-      name: "Kalkulator długów",
-      description:
-        "Aplikacja internetowa do obliczania długów w grupach. Często podczas podróży pojawia się zamieszanie, kto komu i ile jest winien. Aby nie liczyć tego wszystkiego na kartce papieru lub w Excelu, zaimplementowałem kalkulator w React."
+        'Serwis do generowania losowych liczb, haseł, list i innych wartości. Przepisałem go z czystego JavaScriptu na Nuxt i dodałem publiczne API oparte na Express. Sam regularnie korzystam z generatora haseł.'
     },
     travelcalc: {
-      name: "Kalkulator podróży",
+      name: 'Kalkulator podróżnika',
       description:
-        "Kolejne narzędzie, które może się przydać w podróży. Pozwala szybko przeliczyć ceny w obcej walucie na zwykłą oraz pokazuje, ile godzin trzeba pracować, aby dokonać zakupu. Zaimplementowane w Qwik z integracją kilku komponentów React."
+        'Niewielki projekt hobbystyczny, żeby wypróbować Qwik i integrację komponentów React. Przelicza ceny na znajomą walutę i pokazuje, ile czasu pracy kosztuje dany zakup.'
     }
+  },
+
+  hobbies: {
+    description:
+      'Poza pracą: futsal i piłka nożna, ciężka muzyka, gry komputerowe, książki i podróże.'
   },
 
   validation: {
@@ -213,4 +254,4 @@ export default {
     min: 'Pole musi mieć co najmniej {length} znaków',
     required: 'Pole jest wymagane'
   }
-}
+};

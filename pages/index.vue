@@ -16,6 +16,7 @@
           </div>
 					<h1 class="text-skin-accent text-4xl">{{ $t('name') }}</h1>
 					<h2 class="text-2xl">{{ $t('post') }}</h2>
+					<p class="text-sm" data-test="availability">{{ $t('availability') }}</p>
 					<markup-social-links />
           <cv-link />
 				</div>
@@ -27,7 +28,8 @@
 				<markup-work id="work" />
 				<markup-projects id="projects" />
 				<markup-education id="education" />
-				<markup-contacts id="contacts" />
+				<markup-hobbies id="hobbies" />
+				<!-- <markup-contacts id="contacts" /> -->
 				<div class="text-center pb-20 no-print">
 					<div class="w-16 h-1 rounded-full bg-skin-accent inline-flex"></div>
 					<div class="text-lg" v-html="$t('copyright')"></div>

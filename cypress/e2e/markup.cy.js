@@ -29,7 +29,7 @@ describe('Home page markup', () => {
 		it('has post', () => {
 			cy.get('aside')
 				.find('h2')
-				.contains('Dead end web developer');
+				.contains('Tech Lead / Web Architect');
 		});
 
 		it('has social links', () => {
@@ -52,7 +52,12 @@ describe('Home page markup', () => {
 	});
 
 	context('main', () => {
-		const blocks = ['bio', 'skills', 'languages', 'work', 'projects', 'education', 'contacts'];
+		it('hides the contact form and its navigation item', () => {
+			cy.get('#contacts').should('not.exist');
+			cy.get('[data-test="goto-contacts"]').should('not.exist');
+		});
+
+		const blocks = ['bio', 'skills', 'languages', 'work', 'projects', 'education', 'hobbies'];
 
 		for (const block of blocks) {
 			it(`has ${block}`, () => {

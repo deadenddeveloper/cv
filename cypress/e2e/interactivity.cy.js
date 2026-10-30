@@ -22,7 +22,7 @@ describe('Interactive elements', () => {
 	});
 
 	it('can scroll to blocks', () => {
-		const blocks = ['bio', 'skills', 'languages', 'work', 'projects', 'education', 'contacts'];
+		const blocks = ['bio', 'skills', 'languages', 'work', 'projects', 'education'];
 
 		for (const block of blocks) {
 			cy.get('nav[data-test="main-nav"]')
@@ -52,20 +52,5 @@ describe('Interactive elements', () => {
 			cy.get('[data-test="modal-close"]').click();
 			cy.get('[data-test="modal"]').should('not.exist');
 		}
-	});
-
-	it('can send contact form', () => {
-		cy.get('#contacts form')
-			.find('button')
-			.should('have.attr', 'disabled');
-
-		cy.get('#contacts form')
-			.find('textarea')
-			.type('Test message')
-			.should('have.value', 'Test message');
-
-		cy.get('#contacts form')
-			.find('button')
-			.should('not.have.attr', 'disabled');
 	});
 });
