@@ -1,7 +1,6 @@
 <template>
   <div class="flex justify-around no-print" data-test="social-links">
     <a
-      @click="() => gtmPushSocialLink(link.url)"
       v-for="link in links"
       :key="link.name"
       v-tooltip="link.name"
@@ -17,14 +16,10 @@
 
 <script>
 import links from '~/data/links'
-import { gtmPushSocialLink } from "~/utils/gtm";
 
 export default {
   data: () => ({
     links,
   }),
-  methods: {
-    gtmPushSocialLink,
-  },
 }
 </script>

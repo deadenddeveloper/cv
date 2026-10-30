@@ -18,18 +18,12 @@ export default {
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 			{ hid: 'description', name: 'description', content: '' }
 		],
-		link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-		script: [
-			{
-				innerHTML: `window.dataLayer = window.dataLayer || [];(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WWVQR63');`,
-				type: 'text/partytown',
-				async: true
-			}
-		],
-		__dangerouslyDisableSanitizers: ['innerHTML']
+		link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
 	},
 
 	publicRuntimeConfig: {
+		legalName: process.env.LEGAL_NAME || 'Roman Meyer',
+		legalAddress: process.env.LEGAL_ADDRESS || 'Bollweg 9A\n21416 Buxtehude\nDeutschland',
 		email: process.env.EMAIL || 'roman.v.meyer@gmail.com',
 		phone: process.env.PHONE || '+49 (151) 7302 5661'
 	},
@@ -55,8 +49,7 @@ export default {
 		// https://go.nuxtjs.dev/axios
 		'@nuxtjs/axios',
 		'nuxt-i18n',
-		'portal-vue/nuxt',
-		'@nuxtjs/partytown'
+		'portal-vue/nuxt'
 	],
 
 	// Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -72,9 +65,6 @@ export default {
 		}
 	},
 
-	partytown: {
-		forward: ['dataLayer.push']
-	},
 
 	i18n: {
 		locales: [

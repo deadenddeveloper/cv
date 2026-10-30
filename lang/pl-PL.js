@@ -1,5 +1,21 @@
+import legal from './legal/pl-PL';
+
 export default {
+  legal,
   meta: {
+    impressum: {
+      title: `Roman Meyer — ${legal.impressum.title}`,
+      description: legal.impressum.description
+    },
+    agb: {
+      title: `Roman Meyer — ${legal.agb.title}`,
+      description: legal.agb.description
+    },
+    datenschutz: {
+      title: `Roman Meyer — ${legal.datenschutz.title}`,
+      description: legal.datenschutz.description
+    },
+
     index: {
       title: 'Roman Meyer — Tech Lead / Architekt aplikacji webowych',
       description:

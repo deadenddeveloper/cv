@@ -11,7 +11,6 @@
       >
         <h3 class="text-xl text-skin-accent text-center w-full">
           <a
-            @click="() => gtmPushProjectOpened(project.link)"
             :href="project.link"
             target="_blank"
             class="cursor-pointer underline inline-flex items-center justify-center"
@@ -39,12 +38,8 @@
 
 <script>
 import projects from '~/data/projects';
-import { gtmPushProjectOpened } from '~/utils/gtm';
 
 export default {
-  methods: {
-    gtmPushProjectOpened
-  },
   data: () => ({
     projects
   })

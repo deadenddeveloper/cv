@@ -2,7 +2,7 @@
 	<header class="sticky top-0 bg-skin-base px-2 z-30 no-print">
 		<div class="flex py-4 items-center justify-between">
 			<div>
-				<markup-logo />
+				<nuxt-link :to="localePath('index')" :aria-label="$t('go_home')"><markup-logo /></nuxt-link>
 			</div>
 			<div>
 				<lang-switcher />
