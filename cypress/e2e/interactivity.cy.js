@@ -5,20 +5,20 @@ describe('Interactive elements', () => {
 		cy.visit('/en');
 	});
 
-	it('can download CV', () => {
-		cy.get('aside')
-			.find('[data-test="cv-download"]')
-			.should('have.attr', 'href')
-			.then(filename => {
-				expect(filename).to.match(/\.pdf$/);
-			});
-
-		cy.get('aside')
-			.find('[data-test="cv-download"]')
+	it('can generate and download the selected-language CV', () => {
+		cy.get('aside [data-test="cv-download"]')
+			.should('have.prop', 'tagName', 'BUTTON')
+			.and('not.be.disabled')
 			.click();
 
 		const downloadsFolder = Cypress.config('downloadsFolder');
-		cy.readFile(path.join(downloadsFolder, 'romanmeyer_en.pdf')).should('exist');
+		cy.readFile(path.join(downloadsFolder, 'romanmeyer_en.pdf'), 'binary', {
+			timeout: 30000
+		}).then(contents => expect(contents.slice(0, 5)).to.equal('%PDF-'));
+		cy.get('[data-test="cv-download"]')
+			.should('not.be.disabled')
+			.and('have.attr', 'aria-busy', 'false');
+		cy.get('[data-test="cv-download-error"]').should('not.exist');
 	});
 
 	it('can scroll to blocks', () => {

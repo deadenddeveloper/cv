@@ -38,6 +38,8 @@ export default {
   go_home: 'Wróć do strony głównej',
 
   cv: {
+    generating: "Tworzenie PDF…",
+    error: "Nie udało się utworzyć pliku PDF. Spróbuj pobrać CV ponownie.",
     download: 'Pobierz CV'
   },
 

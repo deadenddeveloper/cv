@@ -38,6 +38,8 @@ export default {
 	go_home: 'Zur Startseite',
 
 	cv: {
+		generating: "PDF wird erstellt…",
+		error: "Die PDF-Datei konnte nicht erstellt werden. Bitte versuchen Sie es erneut.",
 		download: 'Lebenslauf herunterladen'
 	},
 

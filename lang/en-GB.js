@@ -38,6 +38,8 @@ export default {
 	go_home: 'Go home',
 
 	cv: {
+		generating: "Generating PDF…",
+		error: "Could not create the PDF. Please try downloading the CV again.",
 		download: 'CV download'
 	},
 
